@@ -1,0 +1,391 @@
+.benefits-section {
+  margin-bottom: var(--spacing-20);
+}
+
+.benefits-title {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-12);
+}
+
+/* User Benefits */
+.user-benefits {
+  gap: var(--spacing-6);
+}
+
+.benefit-card {
+  text-align: center;
+  padding: var(--spacing-8);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  transform: scaleX(0);
+  transition: transform var(--transition-normal);
+}
+
+.benefit-card:hover::before {
+  transform: scaleX(1);
+}
+
+.benefit-card:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.benefit-icon {
+  font-size: var(--text-4xl);
+  margin-bottom: var(--spacing-4);
+  display: block;
+}
+
+.benefit-metric {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-3);
+}
+
+.benefit-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-3);
+}
+
+.benefit-description {
+  color: var(--gray-600);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Business Benefits */
+.business-benefits {
+  gap: var(--spacing-6);
+}
+
+.business-benefit-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-4);
+  padding: var(--spacing-6);
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-normal);
+}
+
+.business-benefit-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+}
+
+.business-benefit-icon {
+  font-size: var(--text-2xl);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  border-radius: var(--radius-xl);
+  flex-shrink: 0;
+  box-shadow: var(--shadow-md);
+}
+
+.business-benefit-content {
+  flex: 1;
+}
+
+.business-benefit-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-2);
+}
+
+.business-benefit-description {
+  color: var(--gray-600);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Testimonials */
+.testimonials-section {
+  margin-bottom: var(--spacing-20);
+}
+
+.testimonials {
+  gap: var(--spacing-6);
+}
+
+.testimonial-card {
+  padding: var(--spacing-8);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  position: relative;
+  transition: all var(--transition-normal);
+}
+
+.testimonial-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.testimonial-quote {
+  margin-bottom: var(--spacing-6);
+  position: relative;
+}
+
+.quote-mark {
+  font-size: var(--text-4xl);
+  color: var(--primary-color);
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.testimonial-quote p {
+  font-style: italic;
+  color: var(--gray-700);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  margin-left: var(--spacing-4);
+  margin-bottom: 0;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-name {
+  font-weight: 600;
+  color: var(--gray-800);
+  font-size: var(--text-base);
+  margin-bottom: var(--spacing-1);
+}
+
+.author-role {
+  color: var(--gray-600);
+  font-size: var(--text-sm);
+  margin-bottom: var(--spacing-1);
+}
+
+.author-company {
+  color: var(--primary-color);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+
+/* Call to Action */
+.benefits-cta {
+  background: var(--white);
+  padding: var(--spacing-16);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--gray-200);
+}
+
+.benefits-cta h3 {
+  font-size: var(--text-3xl);
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-4);
+}
+
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-4);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animation delays for staggered effects */
+.benefit-card:nth-child(1) { animation-delay: 0.1s; }
+.benefit-card:nth-child(2) { animation-delay: 0.2s; }
+.benefit-card:nth-child(3) { animation-delay: 0.3s; }
+.benefit-card:nth-child(4) { animation-delay: 0.4s; }
+
+.business-benefit-card:nth-child(1) { animation-delay: 0.1s; }
+.business-benefit-card:nth-child(2) { animation-delay: 0.2s; }
+.business-benefit-card:nth-child(3) { animation-delay: 0.3s; }
+.business-benefit-card:nth-child(4) { animation-delay: 0.4s; }
+.business-benefit-card:nth-child(5) { animation-delay: 0.5s; }
+.business-benefit-card:nth-child(6) { animation-delay: 0.6s; }
+
+.testimonial-card:nth-child(1) { animation-delay: 0.1s; }
+.testimonial-card:nth-child(2) { animation-delay: 0.2s; }
+.testimonial-card:nth-child(3) { animation-delay: 0.3s; }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .user-benefits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .business-benefits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-section {
+    margin-bottom: var(--spacing-16);
+  }
+  
+  .benefits-title {
+    font-size: var(--text-xl);
+    margin-bottom: var(--spacing-8);
+  }
+  
+  .user-benefits,
+  .business-benefits,
+  .testimonials {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+  }
+  
+  .benefit-card {
+    padding: var(--spacing-6);
+  }
+  
+  .benefit-metric {
+    font-size: var(--text-xl);
+  }
+  
+  .benefit-title {
+    font-size: var(--text-base);
+  }
+  
+  .business-benefit-card {
+    padding: var(--spacing-4);
+    gap: var(--spacing-3);
+  }
+  
+  .business-benefit-icon {
+    width: 50px;
+    height: 50px;
+    font-size: var(--text-xl);
+  }
+  
+  .business-benefit-title {
+    font-size: var(--text-base);
+  }
+  
+  .business-benefit-description {
+    font-size: var(--text-xs);
+  }
+  
+  .testimonial-card {
+    padding: var(--spacing-6);
+  }
+  
+  .testimonial-quote p {
+    font-size: var(--text-sm);
+  }
+  
+  .benefits-cta {
+    padding: var(--spacing-12);
+  }
+  
+  .benefits-cta h3 {
+    font-size: var(--text-2xl);
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefit-card {
+    padding: var(--spacing-4);
+  }
+  
+  .benefit-icon {
+    font-size: var(--text-3xl);
+  }
+  
+  .benefit-metric {
+    font-size: var(--text-lg);
+  }
+  
+  .business-benefit-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .business-benefit-icon {
+    margin: 0 auto var(--spacing-3);
+  }
+  
+  .testimonial-card {
+    padding: var(--spacing-4);
+  }
+  
+  .quote-mark {
+    font-size: var(--text-3xl);
+  }
+  
+  .benefits-cta {
+    padding: var(--spacing-8);
+  }
+  
+  .benefits-cta h3 {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Hover effects for better interactivity */
+.benefit-card:hover .benefit-icon {
+  transform: scale(1.1);
+  transition: transform var(--transition-fast);
+}
+
+.benefit-card:hover .benefit-metric {
+  color: var(--accent-color);
+}
+
+.business-benefit-card:hover .business-benefit-icon {
+  transform: scale(1.05) rotate(5deg);
+}
+
+.testimonial-card:hover .quote-mark {
+  color: var(--accent-color);
+}
