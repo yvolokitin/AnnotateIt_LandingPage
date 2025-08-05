@@ -9,7 +9,7 @@ const Download = () => {
       description: 'Download from Microsoft Store for Windows 10/11',
       version: 'Latest Version',
       size: '~50 MB',
-      requirements: 'Windows 10/11, Admin privileges required',
+      requirements: 'Windows 10/11',
       primary: true,
       available: true,
       link: '#', // Replace with actual Microsoft Store link
@@ -19,13 +19,13 @@ const Download = () => {
       platform: 'Direct Download',
       icon: '💾',
       description: 'Direct download for Windows systems',
-      version: 'v1.0.0',
-      size: '~45 MB',
-      requirements: 'Windows 10/11, Admin privileges required',
-      primary: false,
-      available: false,
-      link: '#',
-      buttonText: 'Coming Soon'
+      version: 'Latest Version',
+      size: '~50 MB',
+      requirements: 'Windows 10/11',
+      primary: true,
+      available: true,
+      link: 'mailto:umno.annotateit@gmail.com',
+      buttonText: 'Request license'
     },
     {
       platform: 'macOS',
@@ -44,18 +44,15 @@ const Download = () => {
   const systemRequirements = {
     minimum: [
       'Windows 10 or Windows 11',
-      'Administrator privileges required',
       '4 GB RAM',
-      '500 MB available disk space',
+      '100 MB available disk space',
       '1280 x 720 display resolution'
     ],
     recommended: [
       'Windows 11 (latest version)',
-      'Administrator privileges',
       '8 GB RAM or more',
       '1 GB available disk space',
       '1920 x 1080 display resolution',
-      'Dedicated graphics card (optional)'
     ]
   };
 
@@ -81,7 +78,6 @@ const Download = () => {
                   <h3 className="platform-name">{option.platform}</h3>
                   <p className="platform-description">{option.description}</p>
                 </div>
-                {option.primary && <div className="recommended-badge">Recommended</div>}
               </div>
               
               <div className="download-details">
@@ -130,20 +126,6 @@ const Download = () => {
                   <li key={index}>{req}</li>
                 ))}
               </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="download-notice fade-in fade-in-delay-4">
-          <div className="notice-card">
-            <div className="notice-icon">⚠️</div>
-            <div className="notice-content">
-              <h4>Important Notice</h4>
-              <p>
-                AnnotateIt requires administrator privileges to run properly on Windows systems. 
-                This is necessary for optimal performance and file system access. Please ensure 
-                you have admin rights before installation.
-              </p>
             </div>
           </div>
         </div>

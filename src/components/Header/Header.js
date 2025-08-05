@@ -28,7 +28,7 @@ const Header = () => {
         <div className="header-content">
           <div className="header-logo">
             <img 
-              src="./assets/logo/annotateit_white.png" 
+              src="/assets/logo/annotateit_white.png" 
               alt="AnnotateIt" 
               className="logo-image"
             />
@@ -53,17 +53,12 @@ const Header = () => {
             </a>
           </nav>
 
-          <div className="header-actions">
-            <a href="#download" className="btn btn-primary">
-              Get Started
-            </a>
-          </div>
+        <button
+          className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+          aria-label="Toggle mobile menu"
+        >
 
-          <button 
-            className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
-            onClick={toggleMobileMenu}
-            aria-label="Toggle mobile menu"
-          >
             <span></span>
             <span></span>
             <span></span>

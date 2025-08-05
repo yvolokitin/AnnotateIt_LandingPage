@@ -23,8 +23,8 @@ const Features = () => {
     },
     {
       icon: '🚀',
-      title: 'Google ML Kit Integration',
-      description: 'Automatic image labeling using Google\'s ML Kit to accelerate your annotation workflow.',
+      title: 'Pre-annotation AI Tools',
+      description: 'Automatic image labeling using advanced AI tools to accelerate your annotation workflow.',
       details: ['Auto-labeling', 'Object Detection', 'Text Recognition', 'Smart Suggestions']
     },
     {

@@ -70,7 +70,7 @@ const Benefits = () => {
       company: "TechVision AI"
     },
     {
-      quote: "The Google ML Kit integration is a game-changer. It provides excellent starting points for our annotations, saving hours of manual work.",
+      quote: "The Pre-annotation AI Tools integration is a game-changer. It provides excellent starting points for our annotations, saving hours of manual work.",
       author: "Michael Rodriguez",
       role: "Data Scientist",
       company: "AutoDrive Systems"

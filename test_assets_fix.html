@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Loading Test - AnnotateIt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-image {
+            max-width: 300px;
+            max-height: 200px;
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+        .status {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        h1 { color: #333; text-align: center; }
+        h2 { color: #666; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>AnnotateIt Asset Loading Test</h1>
+    <p><strong>Instructions:</strong> Start the React application with <code>npm start</code> and then open this file in your browser while the dev server is running on localhost:3000. All images should load without 404 errors.</p>
+    
+    <div class="test-section">
+        <h2>Logo Assets Test</h2>
+        <div>
+            <img src="http://localhost:3000/assets/logo/annotateit_white.png" alt="AnnotateIt White Logo" class="test-image" 
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/logo/annotateit_white.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/logo/annotateit_1024.png" alt="AnnotateIt 1024 Logo" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/logo/annotateit_1024.png</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Screenshot Assets Test</h2>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/main_page_projects.png" alt="Main Page Projects" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/main_page_projects.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/annotator_bboxes.png" alt="Annotator Bboxes" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/annotator_bboxes.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/create_detection_project.png" alt="Create Detection Project" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/create_detection_project.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/create_classification_project.png" alt="Create Classification Project" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/create_classification_project.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/create_segmentation_project.png" alt="Create Segmentation Project" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/create_segmentation_project.png</p>
+        </div>
+        <div>
+            <img src="http://localhost:3000/assets/screenshots/create_project_from_dataset_import.png" alt="Create Project from Dataset Import" class="test-image"
+                 onload="this.nextElementSibling.textContent='✓ LOADED'; this.nextElementSibling.className='status success';"
+                 onerror="this.nextElementSibling.textContent='✗ 404 ERROR'; this.nextElementSibling.className='status error';">
+            <span class="status">Loading...</span>
+            <p>Path: /assets/screenshots/create_project_from_dataset_import.png</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Fix Applied</h2>
+        <p><strong>Issue:</strong> The webpack dev server was not configured to serve static files from the <code>public</code> directory.</p>
+        <p><strong>Solution:</strong> Updated <code>webpack.config.js</code> to include the public directory in the static file serving configuration:</p>
+        <pre style="background: #f8f9fa; padding: 15px; border-radius: 4px; overflow-x: auto;">
+devServer: {
+  static: [
+    {
+      directory: path.join(__dirname, 'dist'),
+    },
+    {
+      directory: path.join(__dirname, 'public'),
+      publicPath: '/',
+    },
+  ],
+  // ... other config
+}</pre>
+        <p>This allows files in <code>public/assets/</code> to be accessible at <code>/assets/</code> URLs in the browser.</p>
+    </div>
+</body>
+</html>

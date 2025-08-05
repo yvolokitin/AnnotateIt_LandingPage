@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnnotateIt Implementation Test</title>
+    <style>
+        @font-face {
+            font-family: 'CascadiaCode';
+            src: url('/assets/fonts/CascadiaCode.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        body {
+            font-family: 'CascadiaCode', monospace;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+        }
+        
+        .test-image {
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            border: 1px solid #666;
+        }
+        
+        .status {
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+        
+        .success {
+            background-color: #10b981;
+            color: white;
+        }
+        
+        .error {
+            background-color: #ef4444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>AnnotateIt Landing Page Implementation Test</h1>
+    
+    <div class="test-section">
+        <h2>Font Test</h2>
+        <p>This text should be displayed in CascadiaCode font.</p>
+        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+        <p>abcdefghijklmnopqrstuvwxyz</p>
+        <p>0123456789 !@#$%^&*()</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>Black Theme Test</h2>
+        <p>Background should be black (#000000)</p>
+        <p>Text should be white (#ffffff)</p>
+        <div class="status success">Success status with green background</div>
+        <div class="status error">Error status with red background</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Image Assets Test</h2>
+        <h3>Logo:</h3>
+        <img src="./public/assets/logo/annotateit_1024.png" alt="AnnotateIt Logo" class="test-image" 
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Logo not found';">
+        
+        <h3>Screenshots:</h3>
+        <img src="./public/assets/screenshots/main_page_projects.png" alt="Main Page Projects" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+        <img src="./public/assets/screenshots/annotator_bboxes.png" alt="Annotator Bboxes" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+        <img src="./public/assets/screenshots/create_detection_project.png" alt="Create Detection Project" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+        <img src="./public/assets/screenshots/create_classification_project.png" alt="Create Classification Project" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+        <img src="./public/assets/screenshots/create_segmentation_project.png" alt="Create Segmentation Project" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+        <img src="./public/assets/screenshots/create_project_from_dataset_import.png" alt="Create Project from Dataset Import" class="test-image"
+             onerror="this.style.border='2px solid red'; this.alt='FAILED: Screenshot not found';">
+    </div>
+    
+    <div class="test-section">
+        <h2>Implementation Summary</h2>
+        <ul>
+            <li>✅ Fixed image asset paths from relative to absolute</li>
+            <li>✅ Downloaded CascadiaCode font from AnnotateIt repository</li>
+            <li>✅ Implemented black theme color scheme</li>
+            <li>✅ Updated font references to use CascadiaCode</li>
+            <li>✅ Updated CSS variables for black theme</li>
+        </ul>
+    </div>
+</body>
+</html>

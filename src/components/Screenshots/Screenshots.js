@@ -6,32 +6,32 @@ const Screenshots = () => {
 
   const screenshots = [
     {
-      src: './assets/screenshots/main_page_projects.png',
+      src: '/assets/screenshots/main_page_projects.png',
       title: 'Project Dashboard',
       description: 'Manage all your annotation projects from a centralized dashboard with project overview and progress tracking.'
     },
     {
-      src: './assets/screenshots/annotator_bboxes.png',
+      src: '/assets/screenshots/annotator_bboxes.png',
       title: 'Bounding Box Annotation',
       description: 'Precise bounding box annotation tools with real-time preview and label management.'
     },
     {
-      src: './assets/screenshots/create_detection_project.png',
+      src: '/assets/screenshots/create_detection_project.png',
       title: 'Object Detection Setup',
       description: 'Easy project creation wizard for object detection tasks with customizable labels and settings.'
     },
     {
-      src: './assets/screenshots/create_classification_project.png',
+      src: '/assets/screenshots/create_classification_project.png',
       title: 'Classification Project',
       description: 'Set up image classification projects with multi-class and multi-label support.'
     },
     {
-      src: './assets/screenshots/create_segmentation_project.png',
+      src: '/assets/screenshots/create_segmentation_project.png',
       title: 'Segmentation Tools',
       description: 'Advanced segmentation annotation tools for pixel-perfect polygon annotations.'
     },
     {
-      src: './assets/screenshots/create_project_from_dataset_import.png',
+      src: '/assets/screenshots/create_project_from_dataset_import.png',
       title: 'Dataset Import',
       description: 'Import existing datasets in various formats to continue or enhance your annotations.'
     }

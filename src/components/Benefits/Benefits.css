@@ -103,7 +103,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  background: white;
   border-radius: var(--radius-xl);
   flex-shrink: 0;
   box-shadow: var(--shadow-md);

@@ -1,31 +1,32 @@
 /* Global Styles */
 :root {
   /* Colors */
-  --primary-color: #2563eb;
-  --primary-dark: #1d4ed8;
-  --primary-light: #3b82f6;
+  --primary-color: #dc2626;
+  --primary-dark: #b91c1c;
+  --primary-light: #ef4444;
   --secondary-color: #64748b;
-  --accent-color: #f59e0b;
+  --accent-color: #ea580c;
   --success-color: #10b981;
   --warning-color: #f59e0b;
   --error-color: #ef4444;
   
-  /* Neutral Colors */
-  --white: #ffffff;
-  --gray-50: #f8fafc;
-  --gray-100: #f1f5f9;
-  --gray-200: #e2e8f0;
-  --gray-300: #cbd5e1;
-  --gray-400: #94a3b8;
-  --gray-500: #64748b;
-  --gray-600: #475569;
-  --gray-700: #334155;
-  --gray-800: #1e293b;
-  --gray-900: #0f172a;
+  /* Neutral Colors - Black Theme */
+  --white: #000000;
+  --black: #ffffff;
+  --gray-50: #0f172a;
+  --gray-100: #1e293b;
+  --gray-200: #334155;
+  --gray-300: #475569;
+  --gray-400: #64748b;
+  --gray-500: #94a3b8;
+  --gray-600: #cbd5e1;
+  --gray-700: #e2e8f0;
+  --gray-800: #f1f5f9;
+  --gray-900: #f8fafc;
   
   /* Typography */
-  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  --font-family-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', monospace;
+  --font-family-primary: 'CascadiaCode', 'Cascadia Code', 'Fira Code', monospace;
+  --font-family-mono: 'CascadiaCode', 'Cascadia Code', 'Fira Code', monospace;
   
   /* Font Sizes */
   --text-xs: 0.75rem;
@@ -95,8 +96,8 @@ body {
   font-family: var(--font-family-primary);
   font-size: var(--text-base);
   line-height: 1.6;
-  color: var(--gray-800);
-  background-color: var(--white);
+  color: var(--black);
+  background-color: #424242;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -194,13 +195,14 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  color: var(--white);
+  font-size: var(--text-lg);
+  background-color: black;
+  color: red;
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-dark);
-  color: var(--white);
+  /*background-color: #333333;*/
+  color: white;
 }
 
 .btn-secondary {

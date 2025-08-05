@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Test</title>
+    <link rel="stylesheet" href="src/styles/global.css">
+    <link rel="stylesheet" href="src/components/Hero/Hero.css">
+    <style>
+        .test-container {
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .color-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1 style="color: white;">Background Color Test</h1>
+        <div class="color-info">
+            <h2>Body Background Color Test</h2>
+            <p>Body background should be: #424242 (dark grey)</p>
+            <p>If you see this page with a dark grey background instead of red, the fix is working!</p>
+        </div>
+        
+        <div class="hero">
+            <div class="color-info">
+                <h2>Hero Section Background Test</h2>
+                <p>Hero section should now use grey gradient instead of red gradient</p>
+                <p>Previous: red gradient (primary-color, primary-dark, accent-color)</p>
+                <p>Current: grey gradient (gray-800, gray-700, gray-600)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

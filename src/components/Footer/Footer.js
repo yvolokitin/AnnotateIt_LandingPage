@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="footer-brand">
               <div className="footer-logo">
                 <img 
-                  src="./assets/logo/annotateit_white.png" 
+                  src="/assets/logo/annotateit_white.png" 
                   alt="AnnotateIt" 
                   className="footer-logo-image"
                 />
@@ -60,22 +60,6 @@ const Footer = () => {
                 A powerful vision annotation platform for creating high-quality training datasets 
                 for machine learning models. Trusted by data scientists and ML engineers worldwide.
               </p>
-              <div className="footer-social">
-                <span className="social-label">Follow us:</span>
-                <div className="social-links">
-                  {socialLinks.map((social, index) => (
-                    <a 
-                      key={index}
-                      href={social.href} 
-                      className="social-link"
-                      aria-label={social.name}
-                      title={social.name}
-                    >
-                      <span className="social-icon">{social.icon}</span>
-                    </a>
-                  ))}
-                </div>
-              </div>
             </div>
 
             <div className="footer-links">
@@ -159,9 +143,6 @@ const Footer = () => {
               <a href="#" className="footer-bottom-link">Terms</a>
               <a href="#" className="footer-bottom-link">Cookies</a>
               <a href="#contact" className="footer-bottom-link">Contact</a>
-            </div>
-            <div className="footer-version">
-              <span>Version 1.0.0</span>
             </div>
           </div>
         </div>
