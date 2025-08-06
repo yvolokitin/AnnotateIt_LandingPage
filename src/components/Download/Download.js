@@ -1,68 +1,97 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Download.css';
 
 const Download = () => {
+  const { t } = useTranslation();
+  
   const downloadOptions = [
     {
-      platform: 'Microsoft Store',
+      platform: t('download.options.microsoftStore.platform'),
       icon: '🏪',
-      description: 'Download from Microsoft Store for Windows 10/11',
-      version: 'Latest Version',
-      size: '~50 MB',
-      requirements: 'Windows 10/11',
+      description: t('download.options.microsoftStore.description'),
+      version: t('download.options.microsoftStore.version'),
+      size: t('download.options.microsoftStore.size'),
+      requirements: t('download.options.microsoftStore.requirements'),
       primary: true,
       available: true,
-      link: '#', // Replace with actual Microsoft Store link
-      buttonText: 'Download from Store'
+      link: 'https://apps.microsoft.com/detail/9N640T6RLT89?hl=en-us&gl=NL&ocid=pdpshare', // Official Microsoft Store link
+      buttonText: t('download.options.microsoftStore.buttonText')
     },
     {
-      platform: 'Direct Download',
+      platform: t('download.options.directDownload.platform'),
       icon: '💾',
-      description: 'Direct download for Windows systems',
-      version: 'Latest Version',
-      size: '~50 MB',
-      requirements: 'Windows 10/11',
+      description: t('download.options.directDownload.description'),
+      version: t('download.options.directDownload.version'),
+      size: t('download.options.directDownload.size'),
+      requirements: t('download.options.directDownload.requirements'),
       primary: true,
       available: true,
       link: 'mailto:umno.annotateit@gmail.com',
-      buttonText: 'Request license'
+      buttonText: t('download.options.directDownload.buttonText')
     },
     {
-      platform: 'macOS',
+      platform: t('download.options.macOS.platform'),
       icon: '🍎',
-      description: 'Native macOS application',
-      version: 'In Development',
-      size: 'TBD',
-      requirements: 'macOS 11.0 or later',
+      description: t('download.options.macOS.description'),
+      version: t('download.options.macOS.version'),
+      size: t('download.options.macOS.size'),
+      requirements: t('download.options.macOS.requirements'),
       primary: false,
       available: false,
       link: '#',
-      buttonText: 'Coming Soon'
+      buttonText: t('download.options.macOS.buttonText')
+    },
+    {
+      platform: t('download.options.android.platform'),
+      icon: '🤖',
+      description: t('download.options.android.description'),
+      version: t('download.options.android.version'),
+      size: t('download.options.android.size'),
+      requirements: t('download.options.android.requirements'),
+      primary: false,
+      available: false,
+      link: '#',
+      buttonText: t('download.options.android.buttonText')
+    },
+    {
+      platform: t('download.options.iOS.platform'),
+      icon: '📱',
+      description: t('download.options.iOS.description'),
+      version: t('download.options.iOS.version'),
+      size: t('download.options.iOS.size'),
+      requirements: t('download.options.iOS.requirements'),
+      primary: false,
+      available: false,
+      link: '#',
+      buttonText: t('download.options.iOS.buttonText')
+    },
+    {
+      platform: t('download.options.ubuntu.platform'),
+      icon: '🐧',
+      description: t('download.options.ubuntu.description'),
+      version: t('download.options.ubuntu.version'),
+      size: t('download.options.ubuntu.size'),
+      requirements: t('download.options.ubuntu.requirements'),
+      primary: false,
+      available: false,
+      link: '#',
+      buttonText: t('download.options.ubuntu.buttonText')
     }
   ];
 
   const systemRequirements = {
-    minimum: [
-      'Windows 10 or Windows 11',
-      '4 GB RAM',
-      '100 MB available disk space',
-      '1280 x 720 display resolution'
-    ],
-    recommended: [
-      'Windows 11 (latest version)',
-      '8 GB RAM or more',
-      '1 GB available disk space',
-      '1920 x 1080 display resolution',
-    ]
+    minimum: t('download.systemRequirements.minimum.items', { returnObjects: true }),
+    recommended: t('download.systemRequirements.recommended.items', { returnObjects: true })
   };
 
   return (
     <section id="download" className="section bg-gradient">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="fade-in">Download AnnotateIt</h2>
+          <h2 className="fade-in">{t('download.title')}</h2>
           <p className="text-large fade-in fade-in-delay-1">
-            Get started with professional annotation tools today
+            {t('download.subtitle')}
           </p>
         </div>
 
@@ -82,15 +111,15 @@ const Download = () => {
               
               <div className="download-details">
                 <div className="detail-item">
-                  <span className="detail-label">Version:</span>
+                  <span className="detail-label">{t('download.details.version')}</span>
                   <span className="detail-value">{option.version}</span>
                 </div>
                 <div className="detail-item">
-                  <span className="detail-label">Size:</span>
+                  <span className="detail-label">{t('download.details.size')}</span>
                   <span className="detail-value">{option.size}</span>
                 </div>
                 <div className="detail-item">
-                  <span className="detail-label">Requirements:</span>
+                  <span className="detail-label">{t('download.details.requirements')}</span>
                   <span className="detail-value">{option.requirements}</span>
                 </div>
               </div>
@@ -100,6 +129,7 @@ const Download = () => {
                   href={option.link} 
                   className={`btn ${option.primary ? 'btn-primary' : 'btn-secondary'} btn-lg ${!option.available ? 'disabled' : ''}`}
                   {...(!option.available && { 'aria-disabled': 'true' })}
+                  {...(option.link.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
                 >
                   {option.buttonText}
                 </a>
@@ -109,10 +139,10 @@ const Download = () => {
         </div>
 
         <div className="system-requirements fade-in fade-in-delay-3">
-          <h3 className="requirements-title text-center">System Requirements</h3>
+          <h3 className="requirements-title text-center">{t('download.systemRequirements.title')}</h3>
           <div className="requirements-grid grid grid-2">
             <div className="requirements-card card">
-              <h4 className="requirements-subtitle">Minimum Requirements</h4>
+              <h4 className="requirements-subtitle">{t('download.systemRequirements.minimum.title')}</h4>
               <ul className="requirements-list">
                 {systemRequirements.minimum.map((req, index) => (
                   <li key={index}>{req}</li>
@@ -120,7 +150,7 @@ const Download = () => {
               </ul>
             </div>
             <div className="requirements-card card">
-              <h4 className="requirements-subtitle">Recommended</h4>
+              <h4 className="requirements-subtitle">{t('download.systemRequirements.recommended.title')}</h4>
               <ul className="requirements-list">
                 {systemRequirements.recommended.map((req, index) => (
                   <li key={index}>{req}</li>
@@ -132,17 +162,16 @@ const Download = () => {
 
         <div className="download-support fade-in fade-in-delay-5">
           <div className="support-content text-center">
-            <h4>Need Help?</h4>
+            <h4>{t('download.support.title')}</h4>
             <p>
-              Having trouble with installation or need technical support? 
-              We're here to help you get started with AnnotateIt.
+              {t('download.support.description')}
             </p>
             <div className="support-actions">
               <a href="#contact" className="btn btn-secondary">
-                Contact Support
+                {t('download.support.contactSupport')}
               </a>
               <a href="#" className="btn btn-secondary">
-                View Documentation
+                {t('download.support.viewDocumentation')}
               </a>
             </div>
           </div>

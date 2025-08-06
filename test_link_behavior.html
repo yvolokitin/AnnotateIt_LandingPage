@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Link Behavior</title>
+</head>
+<body>
+    <h1>Testing Link Behavior</h1>
+    
+    <h2>Microsoft Store Link (should open in new tab)</h2>
+    <a href="https://apps.microsoft.com/detail/9N640T6RLT89?hl=en-us&gl=NL&ocid=pdpshare" 
+       target="_blank" 
+       rel="noopener noreferrer">
+        Download from Store
+    </a>
+    
+    <h2>Email Link (should open in same window/default email client)</h2>
+    <a href="mailto:umno.annotateit@gmail.com">
+        Request license
+    </a>
+    
+    <h2>Hash Link (should navigate in same window)</h2>
+    <a href="#contact">
+        Contact Support
+    </a>
+    
+    <script>
+        // Test the conditional logic
+        const testLinks = [
+            'https://apps.microsoft.com/detail/9N640T6RLT89?hl=en-us&gl=NL&ocid=pdpshare',
+            'mailto:umno.annotateit@gmail.com',
+            '#contact'
+        ];
+        
+        console.log('Testing link behavior logic:');
+        testLinks.forEach(link => {
+            const shouldOpenInNewTab = link.startsWith('http');
+            console.log(`Link: ${link}`);
+            console.log(`Should open in new tab: ${shouldOpenInNewTab}`);
+            console.log('---');
+        });
+    </script>
+</body>
+</html>

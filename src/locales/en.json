@@ -1,0 +1,380 @@
+{
+  "hero": {
+    "headline": "Accelerate Your AI Development with Precision Annotation",
+    "subheadline": "AnnotateIt is the professional vision annotation platform trusted by ML engineers, data scientists, and AI teams to create high-quality training datasets faster and more accurately.",
+    "ctaPrimary": "Get Started Free",
+    "ctaSecondary": "Explore Features",
+    "feature1": "Bounding Boxes & Polygons",
+    "feature2": "Lightning Fast Workflow",
+    "feature3": "AI-Assisted Labeling",
+    "visualAlt": "AnnotateIt main interface showing image annotation with bounding boxes and polygon tools",
+    "videoTitle": "AnnotateIt Features Overview Video"
+  },
+  "header": {
+    "logoAlt": "AnnotateIt",
+    "navigation": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "benefits": "Benefits",
+      "download": "Download",
+      "contact": "Contact"
+    },
+    "mobileMenuToggle": "Toggle mobile menu"
+  },
+  "features": {
+    "title": "Powerful Features for Professional Annotation",
+    "subtitle": "Everything you need to create high-quality training datasets for machine learning models",
+    "items": {
+      "multipleAnnotationTypes": {
+        "title": "Multiple Annotation Types",
+        "description": "Support for bounding boxes, polygons, and classification annotations to meet all your computer vision needs.",
+        "details": [
+          "Bounding Box Detection",
+          "Polygon Segmentation",
+          "Image Classification",
+          "Multi-label Support"
+        ]
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Create and manage annotation projects with customizable labels and organized workflows.",
+        "details": [
+          "Custom Label Creation",
+          "Project Organization",
+          "Progress Tracking",
+          "Team Collaboration"
+        ]
+      },
+      "datasetImportExport": {
+        "title": "Dataset Import/Export",
+        "description": "Import and export datasets in various formats for seamless integration with your ML pipeline.",
+        "details": [
+          "Multiple Format Support",
+          "Batch Processing",
+          "Data Validation",
+          "Export Optimization"
+        ]
+      },
+      "preAnnotationAI": {
+        "title": "Pre-annotation AI Tools",
+        "description": "Automatic image labeling using advanced AI tools to accelerate your annotation workflow.",
+        "details": [
+          "Auto-labeling",
+          "Object Detection",
+          "Text Recognition",
+          "Smart Suggestions"
+        ]
+      },
+      "intuitiveInterface": {
+        "title": "Intuitive Interface",
+        "description": "User-friendly interface designed for efficiency and accuracy in annotation tasks.",
+        "details": [
+          "Drag & Drop",
+          "Keyboard Shortcuts",
+          "Zoom & Pan",
+          "Undo/Redo Support"
+        ]
+      },
+      "advancedTools": {
+        "title": "Advanced Tools",
+        "description": "Professional-grade tools for precise annotations and quality control.",
+        "details": [
+          "Precision Tools",
+          "Quality Validation",
+          "Batch Operations",
+          "Custom Workflows"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to streamline your annotation workflow?",
+      "subtitle": "Join thousands of data scientists and ML engineers who trust AnnotateIt for their projects.",
+      "button": "Start Annotating Today"
+    }
+  },
+  "benefits": {
+    "title": "Why Choose AnnotateIt?",
+    "subtitle": "Trusted by data scientists and ML engineers worldwide for creating high-quality training datasets",
+    "userBenefits": {
+      "title": "Immediate Benefits for Your Workflow",
+      "items": {
+        "saveTime": {
+          "title": "Save Time",
+          "description": "Reduce annotation time by up to 70% with automated labeling and intelligent tools.",
+          "metric": "70% faster"
+        },
+        "improveAccuracy": {
+          "title": "Improve Accuracy",
+          "description": "Professional-grade tools ensure precise annotations for better model performance.",
+          "metric": "99% precision"
+        },
+        "scaleEfficiently": {
+          "title": "Scale Efficiently",
+          "description": "Handle large datasets with batch processing and automated workflows.",
+          "metric": "10x scale"
+        },
+        "reduceCosts": {
+          "title": "Reduce Costs",
+          "description": "Lower annotation costs with efficient tools and reduced manual work.",
+          "metric": "60% savings"
+        }
+      }
+    },
+    "businessBenefits": {
+      "title": "Enterprise-Grade Capabilities",
+      "items": {
+        "fasterTimeToMarket": {
+          "title": "Faster Time-to-Market",
+          "description": "Accelerate your ML projects with streamlined annotation workflows and rapid dataset preparation."
+        },
+        "dataSecurity": {
+          "title": "Data Security",
+          "description": "Keep your sensitive data secure with local processing and no cloud dependency requirements."
+        },
+        "teamCollaboration": {
+          "title": "Team Collaboration",
+          "description": "Enable seamless collaboration with project sharing, progress tracking, and quality control."
+        },
+        "easyIntegration": {
+          "title": "Easy Integration",
+          "description": "Integrate seamlessly with your existing ML pipeline through multiple export formats."
+        },
+        "qualityAssurance": {
+          "title": "Quality Assurance",
+          "description": "Built-in validation tools ensure consistent, high-quality annotations across your team."
+        },
+        "performanceOptimized": {
+          "title": "Performance Optimized",
+          "description": "Handle large images and complex annotations without performance degradation."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "items": [
+        {
+          "quote": "AnnotateIt has revolutionized our annotation workflow. We've reduced our dataset preparation time by 60% while improving annotation quality.",
+          "author": "Dr. Sarah Chen",
+          "role": "ML Research Lead",
+          "company": "TechVision AI"
+        },
+        {
+          "quote": "The Pre-annotation AI Tools integration is a game-changer. It provides excellent starting points for our annotations, saving hours of manual work.",
+          "author": "Michael Rodriguez",
+          "role": "Data Scientist",
+          "company": "AutoDrive Systems"
+        },
+        {
+          "quote": "Finally, an annotation tool that understands the needs of professional ML teams. The interface is intuitive and the features are comprehensive.",
+          "author": "Lisa Wang",
+          "role": "Computer Vision Engineer",
+          "company": "RoboTech Solutions"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Annotation Workflow?",
+      "subtitle": "Join thousands of professionals who have already improved their ML projects with AnnotateIt",
+      "downloadButton": "Download Free Trial",
+      "contactButton": "Contact Sales"
+    }
+  },
+  "screenshots": {
+    "title": "See AnnotateIt in Action",
+    "subtitle": "Explore the intuitive interface and powerful features through these application screenshots",
+    "items": {
+      "projectDashboard": {
+        "title": "Project Dashboard",
+        "description": "Manage all your annotation projects from a centralized dashboard with project overview and progress tracking.",
+        "alt": "AnnotateIt project dashboard showing a grid of annotation projects with thumbnails, progress indicators, and project statistics"
+      },
+      "boundingBoxAnnotation": {
+        "title": "Bounding Box Annotation",
+        "description": "Precise bounding box annotation tools with real-time preview and label management.",
+        "alt": "AnnotateIt annotation interface displaying an image with bounding box annotations, label selector, and annotation tools panel"
+      },
+      "objectDetectionSetup": {
+        "title": "Object Detection Setup",
+        "description": "Easy project creation wizard for object detection tasks with customizable labels and settings.",
+        "alt": "AnnotateIt project creation wizard for object detection showing form fields for project name, labels, and detection settings"
+      },
+      "classificationProject": {
+        "title": "Classification Project",
+        "description": "Set up image classification projects with multi-class and multi-label support.",
+        "alt": "AnnotateIt project setup interface for image classification with options for single-class and multi-class labeling"
+      },
+      "segmentationTools": {
+        "title": "Segmentation Tools",
+        "description": "Advanced segmentation annotation tools for pixel-perfect polygon annotations.",
+        "alt": "AnnotateIt segmentation project creation screen showing polygon annotation settings and segmentation tool options"
+      },
+      "datasetImport": {
+        "title": "Dataset Import",
+        "description": "Import existing datasets in various formats to continue or enhance your annotations.",
+        "alt": "AnnotateIt dataset import interface showing file upload options and supported format selection for existing datasets"
+      }
+    },
+    "modal": {
+      "clickToEnlarge": "Click to enlarge"
+    },
+    "highlights": {
+      "lightningFast": {
+        "title": "Lightning Fast",
+        "description": "Optimized performance for handling large datasets and complex annotations without lag."
+      },
+      "intuitiveDesign": {
+        "title": "Intuitive Design",
+        "description": "Clean, modern interface designed for productivity and ease of use across all skill levels."
+      },
+      "professionalTools": {
+        "title": "Professional Tools",
+        "description": "Advanced annotation tools with precision controls and quality assurance features."
+      },
+      "responsiveLayout": {
+        "title": "Responsive Layout",
+        "description": "Adaptive interface that works seamlessly across different screen sizes and devices."
+      }
+    }
+  },
+  "download": {
+    "title": "Download AnnotateIt",
+    "subtitle": "Get started with professional annotation tools today",
+    "options": {
+      "microsoftStore": {
+        "platform": "Microsoft Store",
+        "description": "Download from Microsoft Store for Windows 10/11",
+        "version": "Latest Version",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Download from Store"
+      },
+      "directDownload": {
+        "platform": "Direct Download",
+        "description": "Direct download for Windows systems",
+        "version": "Latest Version",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Request license"
+      },
+      "macOS": {
+        "platform": "macOS",
+        "description": "Native macOS application",
+        "version": "In Development",
+        "size": "TBD",
+        "requirements": "macOS 11.0 or later",
+        "buttonText": "Coming Soon"
+      },
+      "android": {
+        "platform": "Android",
+        "description": "Native Android application",
+        "version": "In Development",
+        "size": "TBD",
+        "requirements": "Android 8.0+",
+        "buttonText": "Coming Soon"
+      },
+      "iOS": {
+        "platform": "iOS",
+        "description": "Native iOS application",
+        "version": "In Development",
+        "size": "TBD",
+        "requirements": "iOS 13.0+",
+        "buttonText": "Coming Soon"
+      },
+      "ubuntu": {
+        "platform": "Ubuntu",
+        "description": "Native Ubuntu Linux application",
+        "version": "In Development",
+        "size": "TBD",
+        "requirements": "Ubuntu 20.04 LTS or later",
+        "buttonText": "Coming Soon"
+      }
+    },
+    "details": {
+      "version": "Version:",
+      "size": "Size:",
+      "requirements": "Requirements:"
+    },
+    "systemRequirements": {
+      "title": "System Requirements",
+      "minimum": {
+        "title": "Minimum Requirements",
+        "items": [
+          "Windows 10 or Windows 11",
+          "4 GB RAM",
+          "100 MB available disk space",
+          "1280 x 720 display resolution"
+        ]
+      },
+      "recommended": {
+        "title": "Recommended",
+        "items": [
+          "Windows 11 (latest version)",
+          "8 GB RAM or more",
+          "1 GB available disk space",
+          "1920 x 1080 display resolution"
+        ]
+      }
+    },
+    "support": {
+      "title": "Need Help?",
+      "description": "Having trouble with installation or need technical support? We're here to help you get started with AnnotateIt.",
+      "contactSupport": "Contact Support",
+      "viewDocumentation": "View Documentation"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions, feedback, or need support? We'd love to hear from you.",
+    "contactOptions": {
+      "title": "Contact Options",
+      "support": {
+        "title": "Technical Support",
+        "description": "Get help with installation, bugs, or technical issues"
+      },
+      "sales": {
+        "title": "Sales & Licensing",
+        "description": "Enterprise licensing, bulk purchases, and custom solutions"
+      },
+      "feedback": {
+        "title": "Feature Requests",
+        "description": "Suggest new features or improvements to AnnotateIt"
+      },
+      "general": {
+        "title": "General Inquiries",
+        "description": "Questions, partnerships, or other general inquiries"
+      }
+    },
+    "otherWays": {
+      "title": "Other Ways to Connect",
+      "documentation": {
+        "title": "Documentation",
+        "description": "Find answers in our comprehensive documentation",
+        "linkText": "View Docs"
+      },
+      "community": {
+        "title": "Community Forum",
+        "description": "Join discussions with other AnnotateIt users",
+        "linkText": "Join Forum"
+      },
+      "youtube": {
+        "title": "YouTube Channel",
+        "description": "Watch tutorials, feature demos, and tips on our YouTube channel",
+        "linkText": "Visit Channel"
+      }
+    }
+  },
+  "languageSelector": {
+    "label": "Language",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "ru": "Русский",
+      "pl": "Polski"
+    }
+  }
+}

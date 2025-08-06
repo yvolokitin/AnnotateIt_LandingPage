@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Contact.css';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -47,29 +49,29 @@ const Contact = () => {
     {
       type: 'support',
       icon: '🛠️',
-      title: 'Technical Support',
-      description: 'Get help with installation, bugs, or technical issues',
+      title: t('contact.contactOptions.support.title'),
+      description: t('contact.contactOptions.support.description'),
       email: 'umno.annotateit@gmail.com'
     },
     {
       type: 'sales',
       icon: '💼',
-      title: 'Sales & Licensing',
-      description: 'Enterprise licensing, bulk purchases, and custom solutions',
+      title: t('contact.contactOptions.sales.title'),
+      description: t('contact.contactOptions.sales.description'),
       email: 'umno.annotateit@gmail.com'
     },
     {
       type: 'feedback',
       icon: '💡',
-      title: 'Feature Requests',
-      description: 'Suggest new features or improvements to AnnotateIt',
+      title: t('contact.contactOptions.feedback.title'),
+      description: t('contact.contactOptions.feedback.description'),
       email: 'umno.annotateit@gmail.com'
     },
     {
       type: 'general',
       icon: '📧',
-      title: 'General Inquiries',
-      description: 'Questions, partnerships, or other general inquiries',
+      title: t('contact.contactOptions.general.title'),
+      description: t('contact.contactOptions.general.description'),
       email: 'umno.annotateit@gmail.com'
     }
   ];
@@ -78,16 +80,16 @@ const Contact = () => {
     <section id="contact" className="section bg-gray">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="fade-in">Get in Touch</h2>
+          <h2 className="fade-in">{t('contact.title')}</h2>
           <p className="text-large text-muted fade-in fade-in-delay-1">
-            Have questions, feedback, or need support? We'd love to hear from you.
+            {t('contact.subtitle')}
           </p>
         </div>
 
         <div className="contact-content">
           <div className="contact-form-section fade-in fade-in-delay-2">
             <div className="contact-options">
-              <h3 className="contact-options-title">Contact Options</h3>
+              <h3 className="contact-options-title">{t('contact.contactOptions.title')}</h3>
               <div className="contact-options-grid">
                 {contactOptions.map((option, index) => (
                     <div key={index} className="contact-option-card">
@@ -108,22 +110,30 @@ const Contact = () => {
 
           <div className="contact-info-section fade-in fade-in-delay-2">
             <div className="contact-info">
-              <h3 className="contact-info-title">Other Ways to Connect</h3>
+              <h3 className="contact-info-title">{t('contact.otherWays.title')}</h3>
               <div className="contact-methods">
                 <div className="contact-method">
                   <div className="method-icon">🌐</div>
                   <div className="method-content">
-                    <h4>Documentation</h4>
-                    <p>Find answers in our comprehensive documentation</p>
-                    <a href="#" className="method-link">View Docs</a>
+                    <h4>{t('contact.otherWays.documentation.title')}</h4>
+                    <p>{t('contact.otherWays.documentation.description')}</p>
+                    <a href="#" className="method-link">{t('contact.otherWays.documentation.linkText')}</a>
                   </div>
                 </div>
                 <div className="contact-method">
                   <div className="method-icon">💬</div>
                   <div className="method-content">
-                    <h4>Community Forum</h4>
-                    <p>Join discussions with other AnnotateIt users</p>
-                    <a href="#" className="method-link">Join Forum</a>
+                    <h4>{t('contact.otherWays.community.title')}</h4>
+                    <p>{t('contact.otherWays.community.description')}</p>
+                    <a href="#" className="method-link">{t('contact.otherWays.community.linkText')}</a>
+                  </div>
+                </div>
+                <div className="contact-method">
+                  <div className="method-icon">📺</div>
+                  <div className="method-content">
+                    <h4>{t('contact.otherWays.youtube.title')}</h4>
+                    <p>{t('contact.otherWays.youtube.description')}</p>
+                    <a href="https://www.youtube.com/@AnnotateIt.UmnoAI" target="_blank" rel="noopener noreferrer" className="method-link">{t('contact.otherWays.youtube.linkText')}</a>
                   </div>
                 </div>
               </div>

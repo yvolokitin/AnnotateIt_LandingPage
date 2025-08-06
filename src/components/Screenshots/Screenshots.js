@@ -1,39 +1,47 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Screenshots.css';
 
 const Screenshots = () => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState(null);
 
   const screenshots = [
     {
       src: '/assets/screenshots/main_page_projects.png',
-      title: 'Project Dashboard',
-      description: 'Manage all your annotation projects from a centralized dashboard with project overview and progress tracking.'
+      title: t('screenshots.items.projectDashboard.title'),
+      description: t('screenshots.items.projectDashboard.description'),
+      alt: t('screenshots.items.projectDashboard.alt')
     },
     {
       src: '/assets/screenshots/annotator_bboxes.png',
-      title: 'Bounding Box Annotation',
-      description: 'Precise bounding box annotation tools with real-time preview and label management.'
+      title: t('screenshots.items.boundingBoxAnnotation.title'),
+      description: t('screenshots.items.boundingBoxAnnotation.description'),
+      alt: t('screenshots.items.boundingBoxAnnotation.alt')
     },
     {
       src: '/assets/screenshots/create_detection_project.png',
-      title: 'Object Detection Setup',
-      description: 'Easy project creation wizard for object detection tasks with customizable labels and settings.'
+      title: t('screenshots.items.objectDetectionSetup.title'),
+      description: t('screenshots.items.objectDetectionSetup.description'),
+      alt: t('screenshots.items.objectDetectionSetup.alt')
     },
     {
       src: '/assets/screenshots/create_classification_project.png',
-      title: 'Classification Project',
-      description: 'Set up image classification projects with multi-class and multi-label support.'
+      title: t('screenshots.items.classificationProject.title'),
+      description: t('screenshots.items.classificationProject.description'),
+      alt: t('screenshots.items.classificationProject.alt')
     },
     {
       src: '/assets/screenshots/create_segmentation_project.png',
-      title: 'Segmentation Tools',
-      description: 'Advanced segmentation annotation tools for pixel-perfect polygon annotations.'
+      title: t('screenshots.items.segmentationTools.title'),
+      description: t('screenshots.items.segmentationTools.description'),
+      alt: t('screenshots.items.segmentationTools.alt')
     },
     {
       src: '/assets/screenshots/create_project_from_dataset_import.png',
-      title: 'Dataset Import',
-      description: 'Import existing datasets in various formats to continue or enhance your annotations.'
+      title: t('screenshots.items.datasetImport.title'),
+      description: t('screenshots.items.datasetImport.description'),
+      alt: t('screenshots.items.datasetImport.alt')
     }
   ];
 
@@ -49,9 +57,9 @@ const Screenshots = () => {
     <section id="screenshots" className="section">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="fade-in">See AnnotateIt in Action</h2>
+          <h2 className="fade-in">{t('screenshots.title')}</h2>
           <p className="text-large text-muted fade-in fade-in-delay-1">
-            Explore the intuitive interface and powerful features through these application screenshots
+            {t('screenshots.subtitle')}
           </p>
         </div>
 
@@ -65,12 +73,12 @@ const Screenshots = () => {
               <div className="screenshot-image">
                 <img 
                   src={screenshot.src} 
-                  alt={screenshot.title}
+                  alt={screenshot.alt}
                   className="img-responsive img-rounded"
                 />
                 <div className="screenshot-overlay">
                   <span className="view-icon">🔍</span>
-                  <span className="view-text">Click to enlarge</span>
+                  <span className="view-text">{t('screenshots.modal.clickToEnlarge')}</span>
                 </div>
               </div>
               <div className="screenshot-content">
@@ -87,29 +95,29 @@ const Screenshots = () => {
               <div className="highlight-item">
                 <div className="highlight-icon">⚡</div>
                 <div className="highlight-content">
-                  <h4>Lightning Fast</h4>
-                  <p>Optimized performance for handling large datasets and complex annotations without lag.</p>
+                  <h4>{t('screenshots.highlights.lightningFast.title')}</h4>
+                  <p>{t('screenshots.highlights.lightningFast.description')}</p>
                 </div>
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">🎨</div>
                 <div className="highlight-content">
-                  <h4>Intuitive Design</h4>
-                  <p>Clean, modern interface designed for productivity and ease of use across all skill levels.</p>
+                  <h4>{t('screenshots.highlights.intuitiveDesign.title')}</h4>
+                  <p>{t('screenshots.highlights.intuitiveDesign.description')}</p>
                 </div>
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">🔧</div>
                 <div className="highlight-content">
-                  <h4>Professional Tools</h4>
-                  <p>Advanced annotation tools with precision controls and quality assurance features.</p>
+                  <h4>{t('screenshots.highlights.professionalTools.title')}</h4>
+                  <p>{t('screenshots.highlights.professionalTools.description')}</p>
                 </div>
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">📱</div>
                 <div className="highlight-content">
-                  <h4>Responsive Layout</h4>
-                  <p>Adaptive interface that works seamlessly across different screen sizes and devices.</p>
+                  <h4>{t('screenshots.highlights.responsiveLayout.title')}</h4>
+                  <p>{t('screenshots.highlights.responsiveLayout.description')}</p>
                 </div>
               </div>
             </div>
@@ -124,7 +132,7 @@ const Screenshots = () => {
             <button className="modal-close" onClick={closeModal}>×</button>
             <img 
               src={selectedImage.src} 
-              alt={selectedImage.title}
+              alt={selectedImage.alt}
               className="modal-image"
             />
             <div className="modal-info">

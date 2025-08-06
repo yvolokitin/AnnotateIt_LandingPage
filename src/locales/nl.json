@@ -1,0 +1,338 @@
+{
+  "hero": {
+    "headline": "Versnel je AI-Ontwikkeling met Precisie Annotatie",
+    "subheadline": "AnnotateIt is het professionele vision annotatie platform waar ML-ingenieurs, data scientists en AI-teams op vertrouwen om hoogwaardige trainingsdatasets sneller en nauwkeuriger te creëren.",
+    "ctaPrimary": "Gratis Beginnen",
+    "ctaSecondary": "Functies Verkennen",
+    "feature1": "Bounding Boxes & Polygonen",
+    "feature2": "Bliksemsnelle Workflow",
+    "feature3": "AI-Ondersteunde Labeling",
+    "visualAlt": "AnnotateIt hoofdinterface toont beeldannotatie met bounding boxes en polygoon tools"
+  },
+  "header": {
+    "logoAlt": "AnnotateIt",
+    "navigation": {
+      "features": "Functies",
+      "screenshots": "Screenshots",
+      "benefits": "Voordelen",
+      "download": "Download",
+      "contact": "Contact"
+    },
+    "mobileMenuToggle": "Mobiel menu schakelen"
+  },
+  "features": {
+    "title": "Krachtige Functies voor Professionele Annotatie",
+    "subtitle": "Alles wat je nodig hebt om hoogwaardige trainingsdatasets te maken voor machine learning modellen",
+    "items": {
+      "multipleAnnotationTypes": {
+        "title": "Meerdere Annotatie Types",
+        "description": "Ondersteuning voor bounding boxes, polygonen en classificatie annotaties om aan al je computer vision behoeften te voldoen.",
+        "details": [
+          "Bounding Box Detectie",
+          "Polygoon Segmentatie",
+          "Afbeelding Classificatie",
+          "Multi-label Ondersteuning"
+        ]
+      },
+      "projectManagement": {
+        "title": "Projectbeheer",
+        "description": "Maak en beheer annotatie projecten met aanpasbare labels en georganiseerde workflows.",
+        "details": [
+          "Aangepaste Label Creatie",
+          "Project Organisatie",
+          "Voortgang Tracking",
+          "Team Samenwerking"
+        ]
+      },
+      "datasetImportExport": {
+        "title": "Dataset Import/Export",
+        "description": "Importeer en exporteer datasets in verschillende formaten voor naadloze integratie met je ML pipeline.",
+        "details": [
+          "Meerdere Formaat Ondersteuning",
+          "Batch Verwerking",
+          "Data Validatie",
+          "Export Optimalisatie"
+        ]
+      },
+      "preAnnotationAI": {
+        "title": "AI Pre-annotatie Tools",
+        "description": "Automatische afbeelding labeling met geavanceerde AI tools om je annotatie workflow te versnellen.",
+        "details": [
+          "Auto-labeling",
+          "Object Detectie",
+          "Tekst Herkenning",
+          "Slimme Suggesties"
+        ]
+      },
+      "intuitiveInterface": {
+        "title": "Intuïtieve Interface",
+        "description": "Gebruiksvriendelijke interface ontworpen voor efficiëntie en nauwkeurigheid in annotatie taken.",
+        "details": [
+          "Slepen & Neerzetten",
+          "Toetsenbord Snelkoppelingen",
+          "Zoom & Pan",
+          "Ongedaan maken/Opnieuw Ondersteuning"
+        ]
+      },
+      "advancedTools": {
+        "title": "Geavanceerde Tools",
+        "description": "Professionele tools voor precieze annotaties en kwaliteitscontrole.",
+        "details": [
+          "Precisie Tools",
+          "Kwaliteit Validatie",
+          "Batch Operaties",
+          "Aangepaste Workflows"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Klaar om je annotatie workflow te stroomlijnen?",
+      "subtitle": "Sluit je aan bij duizenden data scientists en ML engineers die AnnotateIt vertrouwen voor hun projecten.",
+      "button": "Begin Vandaag met Annoteren"
+    }
+  },
+  "benefits": {
+    "title": "Waarom AnnotateIt Kiezen?",
+    "subtitle": "Vertrouwd door data scientists en ML engineers wereldwijd voor het maken van hoogwaardige trainingsdatasets",
+    "userBenefits": {
+      "title": "Directe Voordelen voor Je Workflow",
+      "items": {
+        "saveTime": {
+          "title": "Bespaar Tijd",
+          "description": "Verminder annotatie tijd met tot 70% met geautomatiseerde labeling en intelligente tools.",
+          "metric": "70% sneller"
+        },
+        "improveAccuracy": {
+          "title": "Verbeter Nauwkeurigheid",
+          "description": "Professionele tools zorgen voor precieze annotaties voor betere model prestaties.",
+          "metric": "99% precisie"
+        },
+        "scaleEfficiently": {
+          "title": "Schaal Efficiënt",
+          "description": "Beheer grote datasets met batch verwerking en geautomatiseerde workflows.",
+          "metric": "10x schaal"
+        },
+        "reduceCosts": {
+          "title": "Verlaag Kosten",
+          "description": "Verlaag annotatie kosten met efficiënte tools en minder handmatig werk.",
+          "metric": "60% besparing"
+        }
+      }
+    },
+    "businessBenefits": {
+      "title": "Enterprise-Grade Mogelijkheden",
+      "items": {
+        "fasterTimeToMarket": {
+          "title": "Snellere Time-to-Market",
+          "description": "Versnel je ML projecten met gestroomlijnde annotatie workflows en snelle dataset voorbereiding."
+        },
+        "dataSecurity": {
+          "title": "Data Beveiliging",
+          "description": "Houd je gevoelige data veilig met lokale verwerking en geen cloud afhankelijkheid vereisten."
+        },
+        "teamCollaboration": {
+          "title": "Team Samenwerking",
+          "description": "Maak naadloze samenwerking mogelijk met project delen, voortgang tracking en kwaliteitscontrole."
+        },
+        "easyIntegration": {
+          "title": "Eenvoudige Integratie",
+          "description": "Integreer naadloos met je bestaande ML pipeline door meerdere export formaten."
+        },
+        "qualityAssurance": {
+          "title": "Kwaliteitsborging",
+          "description": "Ingebouwde validatie tools zorgen voor consistente, hoogwaardige annotaties in je hele team."
+        },
+        "performanceOptimized": {
+          "title": "Prestatie Geoptimaliseerd",
+          "description": "Verwerk grote afbeeldingen en complexe annotaties zonder prestatie degradatie."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Wat Onze Gebruikers Zeggen",
+      "items": [
+        {
+          "quote": "AnnotateIt heeft onze annotatie workflow gerevolutioneerd. We hebben onze dataset voorbereidingstijd met 60% verminderd terwijl we de annotatie kwaliteit verbeterden.",
+          "author": "Dr. Sarah Chen",
+          "role": "ML Onderzoek Leider",
+          "company": "TechVision AI"
+        },
+        {
+          "quote": "De integratie van AI Pre-annotatie Tools is een game-changer. Het biedt uitstekende startpunten voor onze annotaties, wat uren handmatig werk bespaart.",
+          "author": "Michael Rodriguez",
+          "role": "Data Scientist",
+          "company": "AutoDrive Systems"
+        },
+        {
+          "quote": "Eindelijk, een annotatie tool die de behoeften van professionele ML teams begrijpt. De interface is intuïtief en de functies zijn uitgebreid.",
+          "author": "Lisa Wang",
+          "role": "Computer Vision Engineer",
+          "company": "RoboTech Solutions"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om Je Annotatie Workflow te Transformeren?",
+      "subtitle": "Sluit je aan bij duizenden professionals die hun ML projecten al hebben verbeterd met AnnotateIt",
+      "downloadButton": "Download Gratis Proefversie",
+      "contactButton": "Contact Verkoop"
+    }
+  },
+  "languageSelector": {
+    "label": "Taal",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "ru": "Русский",
+      "pl": "Polski"
+    }
+  },
+  "screenshots": {
+    "title": "Zie AnnotateIt in Actie",
+    "subtitle": "Verken de intuïtieve interface en krachtige functies door deze applicatie screenshots",
+    "items": {
+      "projectDashboard": {
+        "title": "Project Dashboard",
+        "description": "Beheer al je annotatie projecten vanuit een gecentraliseerd dashboard met projectoverzicht en voortgangsregistratie.",
+        "alt": "AnnotateIt project dashboard met een raster van annotatie projecten met miniaturen, voortgangsindicatoren en projectstatistieken"
+      },
+      "boundingBoxAnnotation": {
+        "title": "Bounding Box Annotatie",
+        "description": "Precieze bounding box annotatie tools met real-time voorvertoning en label beheer.",
+        "alt": "AnnotateIt annotatie interface met een afbeelding met bounding box annotaties, label selector en annotatie tools paneel"
+      },
+      "objectDetectionSetup": {
+        "title": "Object Detectie Instelling",
+        "description": "Eenvoudige project aanmaak wizard voor object detectie taken met aanpasbare labels en instellingen.",
+        "alt": "AnnotateIt project aanmaak wizard voor object detectie met formuliervelden voor projectnaam, labels en detectie instellingen"
+      },
+      "classificationProject": {
+        "title": "Classificatie Project",
+        "description": "Stel afbeelding classificatie projecten in met multi-klasse en multi-label ondersteuning.",
+        "alt": "AnnotateIt project setup interface voor afbeelding classificatie met opties voor enkele-klasse en multi-klasse labeling"
+      },
+      "segmentationTools": {
+        "title": "Segmentatie Tools",
+        "description": "Geavanceerde segmentatie annotatie tools voor pixel-perfecte polygoon annotaties.",
+        "alt": "AnnotateIt segmentatie project aanmaak scherm met polygoon annotatie instellingen en segmentatie tool opties"
+      },
+      "datasetImport": {
+        "title": "Dataset Import",
+        "description": "Importeer bestaande datasets in verschillende formaten om je annotaties voort te zetten of te verbeteren.",
+        "alt": "AnnotateIt dataset import interface met bestand upload opties en ondersteunde formaat selectie voor bestaande datasets"
+      }
+    },
+    "modal": {
+      "clickToEnlarge": "Klik om te vergroten"
+    },
+    "highlights": {
+      "lightningFast": {
+        "title": "Bliksemsnelle Snelheid",
+        "description": "Geoptimaliseerde prestaties voor het verwerken van grote datasets en complexe annotaties zonder vertraging."
+      },
+      "intuitiveDesign": {
+        "title": "Intuïtief Ontwerp",
+        "description": "Schone, moderne interface ontworpen voor productiviteit en gebruiksgemak op alle vaardigheidsniveaus."
+      },
+      "professionalTools": {
+        "title": "Professionele Tools",
+        "description": "Geavanceerde annotatie tools met precisie controles en kwaliteitsborging functies."
+      },
+      "responsiveLayout": {
+        "title": "Responsieve Layout",
+        "description": "Adaptieve interface die naadloos werkt op verschillende schermformaten en apparaten."
+      }
+    }
+  },
+  "download": {
+    "title": "Download AnnotateIt",
+    "subtitle": "Begin vandaag met professionele annotatie tools",
+    "options": {
+      "microsoftStore": {
+        "platform": "Microsoft Store",
+        "description": "Download van Microsoft Store voor Windows 10/11",
+        "version": "Nieuwste Versie",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Download van Store"
+      },
+      "directDownload": {
+        "platform": "Directe Download",
+        "description": "Directe download voor Windows systemen",
+        "version": "Nieuwste Versie",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Licentie aanvragen"
+      },
+      "macOS": {
+        "platform": "macOS",
+        "description": "Native macOS applicatie",
+        "version": "In Ontwikkeling",
+        "size": "Nog te bepalen",
+        "requirements": "macOS 11.0 of nieuwer",
+        "buttonText": "Binnenkort Beschikbaar"
+      },
+      "android": {
+        "platform": "Android",
+        "description": "Native Android applicatie",
+        "version": "In Ontwikkeling",
+        "size": "Nog te bepalen",
+        "requirements": "Android 8.0+",
+        "buttonText": "Binnenkort Beschikbaar"
+      },
+      "iOS": {
+        "platform": "iOS",
+        "description": "Native iOS applicatie",
+        "version": "In Ontwikkeling",
+        "size": "Nog te bepalen",
+        "requirements": "iOS 13.0+",
+        "buttonText": "Binnenkort Beschikbaar"
+      },
+      "ubuntu": {
+        "platform": "Ubuntu",
+        "description": "Native Ubuntu Linux applicatie",
+        "version": "In Ontwikkeling",
+        "size": "Nog te bepalen",
+        "requirements": "Ubuntu 20.04 LTS of nieuwer",
+        "buttonText": "Binnenkort Beschikbaar"
+      }
+    },
+    "details": {
+      "version": "Versie:",
+      "size": "Grootte:",
+      "requirements": "Vereisten:"
+    },
+    "systemRequirements": {
+      "title": "Systeemvereisten",
+      "minimum": {
+        "title": "Minimale Vereisten",
+        "items": [
+          "Windows 10 of Windows 11",
+          "4 GB RAM",
+          "100 MB beschikbare schijfruimte",
+          "1280 x 720 schermresolutie"
+        ]
+      },
+      "recommended": {
+        "title": "Aanbevolen",
+        "items": [
+          "Windows 11 (nieuwste versie)",
+          "8 GB RAM of meer",
+          "1 GB beschikbare schijfruimte",
+          "1920 x 1080 schermresolutie"
+        ]
+      }
+    },
+    "support": {
+      "title": "Hulp Nodig?",
+      "description": "Problemen met de installatie of technische ondersteuning nodig? We zijn er om je te helpen aan de slag te gaan met AnnotateIt.",
+      "contactSupport": "Contact Ondersteuning",
+      "viewDocumentation": "Bekijk Documentatie"
+    }
+  }
+}

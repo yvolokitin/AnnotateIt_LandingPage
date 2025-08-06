@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Hash Removal Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            height: 200vh; /* Make page scrollable */
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .logo-test {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .hash-link {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        #contact, #features, #download {
+            margin-top: 100px;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 5px;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>Logo Hash Removal Test</h1>
+    
+    <div class="test-section">
+        <h2>Test Instructions:</h2>
+        <ol>
+            <li>Click on one of the hash links below to add a hash to the URL</li>
+            <li>Scroll down to see the content</li>
+            <li>Click the "Logo (Test)" button to simulate logo click</li>
+            <li>Verify that:
+                <ul>
+                    <li>The URL hash is removed</li>
+                    <li>The page scrolls to the top</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h3>Hash Navigation Links:</h3>
+        <a href="#contact" class="hash-link">Go to #contact</a>
+        <a href="#features" class="hash-link">Go to #features</a>
+        <a href="#download" class="hash-link">Go to #download</a>
+    </div>
+
+    <div class="test-section">
+        <h3>Logo Click Test:</h3>
+        <div class="logo-test" onclick="handleLogoClick()">
+            🏠 Logo (Test) - Click to remove hash and scroll to top
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h3>Current Status:</h3>
+        <div id="status" class="status info">
+            Current URL: <span id="current-url"></span>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Section</h2>
+        <p>This is the contact section. When you navigate here via #contact, this section should be visible.</p>
+    </div>
+
+    <div id="features">
+        <h2>Features Section</h2>
+        <p>This is the features section. When you navigate here via #features, this section should be visible.</p>
+    </div>
+
+    <div id="download">
+        <h2>Download Section</h2>
+        <p>This is the download section. When you navigate here via #download, this section should be visible.</p>
+    </div>
+
+    <script>
+        // Simulate the logo click behavior from the Header component
+        function handleLogoClick() {
+            console.log('Logo clicked - Before:', window.location.href);
+            
+            // Remove hash from URL and navigate to clean home page
+            window.history.pushState('', document.title, window.location.pathname + window.location.search);
+            window.scrollTo(0, 0);
+            
+            console.log('Logo clicked - After:', window.location.href);
+            updateStatus();
+        }
+
+        function updateStatus() {
+            const statusElement = document.getElementById('status');
+            const urlElement = document.getElementById('current-url');
+            
+            urlElement.textContent = window.location.href;
+            
+            if (window.location.hash) {
+                statusElement.className = 'status info';
+                statusElement.innerHTML = `Current URL: <span id="current-url">${window.location.href}</span><br>Hash detected: ${window.location.hash}`;
+            } else {
+                statusElement.className = 'status success';
+                statusElement.innerHTML = `Current URL: <span id="current-url">${window.location.href}</span><br>✅ No hash in URL - Clean!`;
+            }
+        }
+
+        // Update status on page load and hash change
+        window.addEventListener('load', updateStatus);
+        window.addEventListener('hashchange', updateStatus);
+        
+        // Update status periodically to catch programmatic changes
+        setInterval(updateStatus, 1000);
+    </script>
+</body>
+</html>

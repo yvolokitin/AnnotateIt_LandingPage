@@ -1,0 +1,374 @@
+{
+  "hero": {
+    "headline": "Acelere o Desenvolvimento da sua IA com Anotação de Precisão",
+    "subheadline": "AnnotateIt é a plataforma profissional de anotação de visão em que confiam engenheiros de ML, cientistas de dados e equipes de IA para criar conjuntos de dados de treinamento de alta qualidade de forma mais rápida e precisa.",
+    "ctaPrimary": "Começar Grátis",
+    "ctaSecondary": "Explorar Recursos",
+    "feature1": "Caixas Delimitadoras e Polígonos",
+    "feature2": "Fluxo de Trabalho Ultra-Rápido",
+    "feature3": "Rotulagem Assistida por IA",
+    "visualAlt": "Interface principal do AnnotateIt mostrando anotação de imagens com caixas delimitadoras e ferramentas de polígonos"
+  },
+  "header": {
+    "logoAlt": "AnnotateIt",
+    "navigation": {
+      "features": "Recursos",
+      "screenshots": "Capturas de Tela",
+      "benefits": "Benefícios",
+      "download": "Download",
+      "contact": "Contato"
+    },
+    "mobileMenuToggle": "Alternar menu móvel"
+  },
+  "features": {
+    "title": "Recursos Poderosos para Anotação Profissional",
+    "subtitle": "Tudo que você precisa para criar conjuntos de dados de treinamento de alta qualidade para modelos de machine learning",
+    "items": {
+      "multipleAnnotationTypes": {
+        "title": "Múltiplos Tipos de Anotação",
+        "description": "Suporte para caixas delimitadoras, polígonos e anotações de classificação para atender todas as suas necessidades de visão computacional.",
+        "details": [
+          "Detecção de Caixa Delimitadora",
+          "Segmentação de Polígonos",
+          "Classificação de Imagens",
+          "Suporte Multi-rótulo"
+        ]
+      },
+      "projectManagement": {
+        "title": "Gerenciamento de Projetos",
+        "description": "Crie e gerencie projetos de anotação com rótulos personalizáveis e fluxos de trabalho organizados.",
+        "details": [
+          "Criação de Rótulos Personalizados",
+          "Organização de Projetos",
+          "Acompanhamento de Progresso",
+          "Colaboração em Equipe"
+        ]
+      },
+      "datasetImportExport": {
+        "title": "Importação/Exportação de Conjuntos de Dados",
+        "description": "Importe e exporte conjuntos de dados em vários formatos para integração perfeita com seu pipeline de ML.",
+        "details": [
+          "Suporte a Múltiplos Formatos",
+          "Processamento em Lote",
+          "Validação de Dados",
+          "Otimização de Exportação"
+        ]
+      },
+      "preAnnotationAI": {
+        "title": "Ferramentas de IA de Pré-anotação",
+        "description": "Rotulagem automática de imagens usando ferramentas avançadas de IA para acelerar seu fluxo de trabalho de anotação.",
+        "details": [
+          "Auto-rotulagem",
+          "Detecção de Objetos",
+          "Reconhecimento de Texto",
+          "Sugestões Inteligentes"
+        ]
+      },
+      "intuitiveInterface": {
+        "title": "Interface Intuitiva",
+        "description": "Interface amigável projetada para eficiência e precisão em tarefas de anotação.",
+        "details": [
+          "Arrastar e Soltar",
+          "Atalhos de Teclado",
+          "Zoom e Pan",
+          "Suporte Desfazer/Refazer"
+        ]
+      },
+      "advancedTools": {
+        "title": "Ferramentas Avançadas",
+        "description": "Ferramentas de nível profissional para anotações precisas e controle de qualidade.",
+        "details": [
+          "Ferramentas de Precisão",
+          "Validação de Qualidade",
+          "Operações em Lote",
+          "Fluxos de Trabalho Personalizados"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Pronto para otimizar seu fluxo de trabalho de anotação?",
+      "subtitle": "Junte-se a milhares de cientistas de dados e engenheiros de ML que confiam no AnnotateIt para seus projetos.",
+      "button": "Comece a Anotar Hoje"
+    }
+  },
+  "benefits": {
+    "title": "Por Que Escolher o AnnotateIt?",
+    "subtitle": "Confiado por cientistas de dados e engenheiros de ML em todo o mundo para criar conjuntos de dados de treinamento de alta qualidade",
+    "userBenefits": {
+      "title": "Benefícios Imediatos para Seu Fluxo de Trabalho",
+      "items": {
+        "saveTime": {
+          "title": "Economize Tempo",
+          "description": "Reduza o tempo de anotação em até 70% com rotulagem automatizada e ferramentas inteligentes.",
+          "metric": "70% mais rápido"
+        },
+        "improveAccuracy": {
+          "title": "Melhore a Precisão",
+          "description": "Ferramentas de nível profissional garantem anotações precisas para melhor desempenho do modelo.",
+          "metric": "99% precisão"
+        },
+        "scaleEfficiently": {
+          "title": "Escale Eficientemente",
+          "description": "Gerencie grandes conjuntos de dados com processamento em lote e fluxos de trabalho automatizados.",
+          "metric": "10x escala"
+        },
+        "reduceCosts": {
+          "title": "Reduza Custos",
+          "description": "Diminua os custos de anotação com ferramentas eficientes e menos trabalho manual.",
+          "metric": "60% economia"
+        }
+      }
+    },
+    "businessBenefits": {
+      "title": "Capacidades de Nível Empresarial",
+      "items": {
+        "fasterTimeToMarket": {
+          "title": "Time-to-Market Mais Rápido",
+          "description": "Acelere seus projetos de ML com fluxos de trabalho de anotação otimizados e preparação rápida de conjuntos de dados."
+        },
+        "dataSecurity": {
+          "title": "Segurança de Dados",
+          "description": "Mantenha seus dados sensíveis seguros com processamento local e sem requisitos de dependência de nuvem."
+        },
+        "teamCollaboration": {
+          "title": "Colaboração em Equipe",
+          "description": "Permita colaboração perfeita com compartilhamento de projetos, acompanhamento de progresso e controle de qualidade."
+        },
+        "easyIntegration": {
+          "title": "Integração Fácil",
+          "description": "Integre perfeitamente com seu pipeline de ML existente através de múltiplos formatos de exportação."
+        },
+        "qualityAssurance": {
+          "title": "Garantia de Qualidade",
+          "description": "Ferramentas de validação integradas garantem anotações consistentes e de alta qualidade em toda sua equipe."
+        },
+        "performanceOptimized": {
+          "title": "Otimizado para Performance",
+          "description": "Gerencie imagens grandes e anotações complexas sem degradação de performance."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "O Que Nossos Usuários Dizem",
+      "items": [
+        {
+          "quote": "O AnnotateIt revolucionou nosso fluxo de trabalho de anotação. Reduzimos nosso tempo de preparação de conjuntos de dados em 60% enquanto melhoramos a qualidade da anotação.",
+          "author": "Dr. Sarah Chen",
+          "role": "Líder de Pesquisa ML",
+          "company": "TechVision AI"
+        },
+        {
+          "quote": "A integração das Ferramentas de IA de Pré-anotação é revolucionária. Fornece excelentes pontos de partida para nossas anotações, economizando horas de trabalho manual.",
+          "author": "Michael Rodriguez",
+          "role": "Cientista de Dados",
+          "company": "AutoDrive Systems"
+        },
+        {
+          "quote": "Finalmente, uma ferramenta de anotação que entende as necessidades de equipes profissionais de ML. A interface é intuitiva e os recursos são abrangentes.",
+          "author": "Lisa Wang",
+          "role": "Engenheira de Visão Computacional",
+          "company": "RoboTech Solutions"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para Transformar Seu Fluxo de Trabalho de Anotação?",
+      "subtitle": "Junte-se a milhares de profissionais que já melhoraram seus projetos de ML com o AnnotateIt",
+      "downloadButton": "Baixar Teste Gratuito",
+      "contactButton": "Contatar Vendas"
+    }
+  },
+  "languageSelector": {
+    "label": "Idioma",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "ru": "Русский",
+      "pl": "Polski"
+    }
+  },
+  "screenshots": {
+    "title": "Veja o AnnotateIt em Ação",
+    "subtitle": "Explore a interface intuitiva e recursos poderosos através destas capturas de tela da aplicação",
+    "items": {
+      "projectDashboard": {
+        "title": "Painel de Projetos",
+        "description": "Gerencie todos os seus projetos de anotação a partir de um painel centralizado com visão geral do projeto e acompanhamento de progresso.",
+        "alt": "Painel de projetos do AnnotateIt mostrando uma grade de projetos de anotação com miniaturas, indicadores de progresso e estatísticas do projeto"
+      },
+      "boundingBoxAnnotation": {
+        "title": "Anotação de Caixa Delimitadora",
+        "description": "Ferramentas precisas de anotação de caixas delimitadoras com visualização em tempo real e gerenciamento de rótulos.",
+        "alt": "Interface de anotação do AnnotateIt exibindo uma imagem com anotações de caixas delimitadoras, seletor de rótulos e painel de ferramentas de anotação"
+      },
+      "objectDetectionSetup": {
+        "title": "Configuração de Detecção de Objetos",
+        "description": "Assistente fácil de criação de projetos para tarefas de detecção de objetos com rótulos e configurações personalizáveis.",
+        "alt": "Assistente de criação de projetos do AnnotateIt para detecção de objetos mostrando campos de formulário para nome do projeto, rótulos e configurações de detecção"
+      },
+      "classificationProject": {
+        "title": "Projeto de Classificação",
+        "description": "Configure projetos de classificação de imagens com suporte multi-classe e multi-rótulo.",
+        "alt": "Interface de configuração de projetos do AnnotateIt para classificação de imagens com opções para rotulagem de classe única e multi-classe"
+      },
+      "segmentationTools": {
+        "title": "Ferramentas de Segmentação",
+        "description": "Ferramentas avançadas de anotação de segmentação para anotações de polígonos pixel-perfeitas.",
+        "alt": "Tela de criação de projetos de segmentação do AnnotateIt mostrando configurações de anotação de polígonos e opções de ferramentas de segmentação"
+      },
+      "datasetImport": {
+        "title": "Importação de Conjunto de Dados",
+        "description": "Importe conjuntos de dados existentes em vários formatos para continuar ou aprimorar suas anotações.",
+        "alt": "Interface de importação de conjuntos de dados do AnnotateIt mostrando opções de upload de arquivos e seleção de formatos suportados para conjuntos de dados existentes"
+      }
+    },
+    "modal": {
+      "clickToEnlarge": "Clique para ampliar"
+    },
+    "highlights": {
+      "lightningFast": {
+        "title": "Ultra Rápido",
+        "description": "Desempenho otimizado para lidar com grandes conjuntos de dados e anotações complexas sem atraso."
+      },
+      "intuitiveDesign": {
+        "title": "Design Intuitivo",
+        "description": "Interface limpa e moderna projetada para produtividade e facilidade de uso em todos os níveis de habilidade."
+      },
+      "professionalTools": {
+        "title": "Ferramentas Profissionais",
+        "description": "Ferramentas avançadas de anotação com controles de precisão e recursos de garantia de qualidade."
+      },
+      "responsiveLayout": {
+        "title": "Layout Responsivo",
+        "description": "Interface adaptativa que funciona perfeitamente em diferentes tamanhos de tela e dispositivos."
+      }
+    }
+  },
+  "download": {
+    "title": "Baixar AnnotateIt",
+    "subtitle": "Comece com ferramentas profissionais de anotação hoje",
+    "options": {
+      "microsoftStore": {
+        "platform": "Microsoft Store",
+        "description": "Baixar da Microsoft Store para Windows 10/11",
+        "version": "Versão Mais Recente",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Baixar da Store"
+      },
+      "directDownload": {
+        "platform": "Download Direto",
+        "description": "Download direto para sistemas Windows",
+        "version": "Versão Mais Recente",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Solicitar licença"
+      },
+      "macOS": {
+        "platform": "macOS",
+        "description": "Aplicação nativa do macOS",
+        "version": "Em Desenvolvimento",
+        "size": "A Definir",
+        "requirements": "macOS 11.0 ou posterior",
+        "buttonText": "Em Breve"
+      },
+      "android": {
+        "platform": "Android",
+        "description": "Aplicação nativa do Android",
+        "version": "Em Desenvolvimento",
+        "size": "A Definir",
+        "requirements": "Android 8.0+",
+        "buttonText": "Em Breve"
+      },
+      "iOS": {
+        "platform": "iOS",
+        "description": "Aplicação nativa do iOS",
+        "version": "Em Desenvolvimento",
+        "size": "A Definir",
+        "requirements": "iOS 13.0+",
+        "buttonText": "Em Breve"
+      },
+      "ubuntu": {
+        "platform": "Ubuntu",
+        "description": "Aplicação nativa Ubuntu Linux",
+        "version": "Em Desenvolvimento",
+        "size": "A Definir",
+        "requirements": "Ubuntu 20.04 LTS ou posterior",
+        "buttonText": "Em Breve"
+      }
+    },
+    "details": {
+      "version": "Versão:",
+      "size": "Tamanho:",
+      "requirements": "Requisitos:"
+    },
+    "systemRequirements": {
+      "title": "Requisitos do Sistema",
+      "minimum": {
+        "title": "Requisitos Mínimos",
+        "items": [
+          "Windows 10 ou Windows 11",
+          "4 GB RAM",
+          "100 MB de espaço disponível em disco",
+          "Resolução de tela 1280 x 720"
+        ]
+      },
+      "recommended": {
+        "title": "Recomendado",
+        "items": [
+          "Windows 11 (versão mais recente)",
+          "8 GB RAM ou mais",
+          "1 GB de espaço disponível em disco",
+          "Resolução de tela 1920 x 1080"
+        ]
+      }
+    },
+    "support": {
+      "title": "Precisa de Ajuda?",
+      "description": "Tendo problemas com a instalação ou precisa de suporte técnico? Estamos aqui para ajudá-lo a começar com o AnnotateIt.",
+      "contactSupport": "Contactar Suporte",
+      "viewDocumentation": "Ver Documentação"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contacto",
+    "subtitle": "Tem perguntas, feedback ou precisa de suporte? Adoraríamos ouvir de si.",
+    "contactOptions": {
+      "title": "Opções de Contacto",
+      "support": {
+        "title": "Suporte Técnico",
+        "description": "Obtenha ajuda com instalação, bugs ou problemas técnicos"
+      },
+      "sales": {
+        "title": "Vendas e Licenciamento",
+        "description": "Licenciamento empresarial, compras em volume e soluções personalizadas"
+      },
+      "feedback": {
+        "title": "Solicitações de Recursos",
+        "description": "Sugira novos recursos ou melhorias para o AnnotateIt"
+      },
+      "general": {
+        "title": "Consultas Gerais",
+        "description": "Perguntas, parcerias ou outras consultas gerais"
+      }
+    },
+    "otherWays": {
+      "title": "Outras Formas de Conectar",
+      "documentation": {
+        "title": "Documentação",
+        "description": "Encontre respostas na nossa documentação abrangente",
+        "linkText": "Ver Documentos"
+      },
+      "community": {
+        "title": "Fórum da Comunidade",
+        "description": "Participe em discussões com outros utilizadores do AnnotateIt",
+        "linkText": "Juntar-se ao Fórum"
+      }
+    }
+  }
+}

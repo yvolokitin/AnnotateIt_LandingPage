@@ -51,7 +51,7 @@ const Footer = () => {
               <div className="footer-logo">
                 <img 
                   src="/assets/logo/annotateit_white.png" 
-                  alt="AnnotateIt" 
+                  alt="AnnotateIt logo - Vision annotation platform for machine learning datasets" 
                   className="footer-logo-image"
                 />
                 <span className="footer-logo-text">AnnotateIt</span>

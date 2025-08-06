@@ -1,43 +1,46 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Features.css';
 
 const Features = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: '🎯',
-      title: 'Multiple Annotation Types',
-      description: 'Support for bounding boxes, polygons, and classification annotations to meet all your computer vision needs.',
-      details: ['Bounding Box Detection', 'Polygon Segmentation', 'Image Classification', 'Multi-label Support']
+      title: t('features.items.multipleAnnotationTypes.title'),
+      description: t('features.items.multipleAnnotationTypes.description'),
+      details: t('features.items.multipleAnnotationTypes.details', { returnObjects: true })
     },
     {
       icon: '📁',
-      title: 'Project Management',
-      description: 'Create and manage annotation projects with customizable labels and organized workflows.',
-      details: ['Custom Label Creation', 'Project Organization', 'Progress Tracking', 'Team Collaboration']
+      title: t('features.items.projectManagement.title'),
+      description: t('features.items.projectManagement.description'),
+      details: t('features.items.projectManagement.details', { returnObjects: true })
     },
     {
       icon: '📊',
-      title: 'Dataset Import/Export',
-      description: 'Import and export datasets in various formats for seamless integration with your ML pipeline.',
-      details: ['Multiple Format Support', 'Batch Processing', 'Data Validation', 'Export Optimization']
+      title: t('features.items.datasetImportExport.title'),
+      description: t('features.items.datasetImportExport.description'),
+      details: t('features.items.datasetImportExport.details', { returnObjects: true })
     },
     {
       icon: '🚀',
-      title: 'Pre-annotation AI Tools',
-      description: 'Automatic image labeling using advanced AI tools to accelerate your annotation workflow.',
-      details: ['Auto-labeling', 'Object Detection', 'Text Recognition', 'Smart Suggestions']
+      title: t('features.items.preAnnotationAI.title'),
+      description: t('features.items.preAnnotationAI.description'),
+      details: t('features.items.preAnnotationAI.details', { returnObjects: true })
     },
     {
       icon: '⚡',
-      title: 'Intuitive Interface',
-      description: 'User-friendly interface designed for efficiency and accuracy in annotation tasks.',
-      details: ['Drag & Drop', 'Keyboard Shortcuts', 'Zoom & Pan', 'Undo/Redo Support']
+      title: t('features.items.intuitiveInterface.title'),
+      description: t('features.items.intuitiveInterface.description'),
+      details: t('features.items.intuitiveInterface.details', { returnObjects: true })
     },
     {
       icon: '🔧',
-      title: 'Advanced Tools',
-      description: 'Professional-grade tools for precise annotations and quality control.',
-      details: ['Precision Tools', 'Quality Validation', 'Batch Operations', 'Custom Workflows']
+      title: t('features.items.advancedTools.title'),
+      description: t('features.items.advancedTools.description'),
+      details: t('features.items.advancedTools.details', { returnObjects: true })
     }
   ];
 
@@ -45,9 +48,9 @@ const Features = () => {
     <section id="features" className="section bg-gray">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="fade-in">Powerful Features for Professional Annotation</h2>
+          <h2 className="fade-in">{t('features.title')}</h2>
           <p className="text-large text-muted fade-in fade-in-delay-1">
-            Everything you need to create high-quality training datasets for machine learning models
+            {t('features.subtitle')}
           </p>
         </div>
         
@@ -71,12 +74,12 @@ const Features = () => {
         </div>
 
         <div className="features-cta text-center fade-in fade-in-delay-3">
-          <h3>Ready to streamline your annotation workflow?</h3>
+          <h3>{t('features.cta.title')}</h3>
           <p className="text-muted mb-6">
-            Join thousands of data scientists and ML engineers who trust AnnotateIt for their projects.
+            {t('features.cta.subtitle')}
           </p>
           <a href="#download" className="btn btn-primary btn-lg">
-            Start Annotating Today
+            {t('features.cta.button')}
           </a>
         </div>
       </div>

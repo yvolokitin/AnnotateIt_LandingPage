@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Click Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            width: fit-content;
+        }
+        .header-logo:hover {
+            background-color: #555;
+        }
+        .logo-image {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #333;
+        }
+        .logo-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .instructions {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #e7f3ff;
+            border-left: 4px solid #2196F3;
+        }
+        .counter {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Logo Click Test</h1>
+        
+        <div class="instructions">
+            <strong>Test Instructions:</strong>
+            <ol>
+                <li>Add a hash to the URL (e.g., add #test to the end of the URL)</li>
+                <li>Scroll down on the page</li>
+                <li>Click on the logo below</li>
+                <li>The hash should be removed from the URL</li>
+                <li>The page should scroll to the top</li>
+                <li>The counter should remain unchanged (no page reload)</li>
+            </ol>
+        </div>
+
+        <div class="header-logo" onclick="handleLogoClick()" style="cursor: pointer;">
+            <div class="logo-image">LOGO</div>
+            <span class="logo-text">AnnotateIt</span>
+        </div>
+
+        <div class="counter">
+            <p><strong>Page Load Counter:</strong> <span id="counter">0</span></p>
+            <button onclick="incrementCounter()">Increment Counter</button>
+            <p><em>This counter increases when you click the button. With the new logo behavior, this counter should NOT reset when clicking the logo (no page reload).</em></p>
+        </div>
+    </div>
+
+    <script>
+        let counter = 0;
+        
+        function incrementCounter() {
+            counter++;
+            document.getElementById('counter').textContent = counter;
+        }
+        
+        function handleLogoClick() {
+            console.log('Logo clicked - Before:', window.location.href);
+            
+            // Remove hash from URL and navigate to clean home page
+            window.history.pushState('', document.title, window.location.pathname + window.location.search);
+            window.scrollTo(0, 0);
+            
+            console.log('Logo clicked - After:', window.location.href);
+        }
+        
+        // Initialize counter display
+        document.getElementById('counter').textContent = counter;
+        
+        console.log('Test page loaded. Click the logo to test hash removal functionality.');
+    </script>
+</body>
+</html>

@@ -1,0 +1,338 @@
+{
+  "hero": {
+    "headline": "Przyspiesz Rozwój Swojej AI z Precyzyjną Adnotacją",
+    "subheadline": "AnnotateIt to profesjonalna platforma adnotacji wizualnych, której ufają inżynierowie ML, data scientists i zespoły AI do tworzenia wysokiej jakości zbiorów danych treningowych szybciej i dokładniej.",
+    "ctaPrimary": "Zacznij Za Darmo",
+    "ctaSecondary": "Poznaj Funkcje",
+    "feature1": "Ramki Ograniczające i Wielokąty",
+    "feature2": "Błyskawiczny Przepływ Pracy",
+    "feature3": "Etykietowanie Wspomagane AI",
+    "visualAlt": "Główny interfejs AnnotateIt pokazujący adnotację obrazów z ramkami ograniczającymi i narzędziami wielokątów"
+  },
+  "header": {
+    "logoAlt": "AnnotateIt",
+    "navigation": {
+      "features": "Funkcje",
+      "screenshots": "Zrzuty ekranu",
+      "benefits": "Korzyści",
+      "download": "Pobierz",
+      "contact": "Kontakt"
+    },
+    "mobileMenuToggle": "Przełącz menu mobilne"
+  },
+  "features": {
+    "title": "Potężne Funkcje dla Profesjonalnej Adnotacji",
+    "subtitle": "Wszystko czego potrzebujesz do tworzenia wysokiej jakości zbiorów danych treningowych dla modeli uczenia maszynowego",
+    "items": {
+      "multipleAnnotationTypes": {
+        "title": "Wiele Typów Adnotacji",
+        "description": "Wsparcie dla ramek ograniczających, wielokątów i adnotacji klasyfikacyjnych dla wszystkich Twoich potrzeb wizji komputerowej.",
+        "details": [
+          "Wykrywanie Ramek Ograniczających",
+          "Segmentacja Wielokątów",
+          "Klasyfikacja Obrazów",
+          "Wsparcie Wielu Etykiet"
+        ]
+      },
+      "projectManagement": {
+        "title": "Zarządzanie Projektami",
+        "description": "Twórz i zarządzaj projektami adnotacji z konfigurowalnymi etykietami i zorganizowanymi przepływami pracy.",
+        "details": [
+          "Tworzenie Niestandardowych Etykiet",
+          "Organizacja Projektów",
+          "Śledzenie Postępów",
+          "Współpraca Zespołowa"
+        ]
+      },
+      "datasetImportExport": {
+        "title": "Import/Eksport Zbiorów Danych",
+        "description": "Importuj i eksportuj zbiory danych w różnych formatach dla bezproblemowej integracji z Twoim potokiem ML.",
+        "details": [
+          "Wsparcie Wielu Formatów",
+          "Przetwarzanie Wsadowe",
+          "Walidacja Danych",
+          "Optymalizacja Eksportu"
+        ]
+      },
+      "preAnnotationAI": {
+        "title": "Narzędzia AI Przed-adnotacji",
+        "description": "Automatyczne etykietowanie obrazów przy użyciu zaawansowanych narzędzi AI do przyspieszenia Twojego przepływu pracy adnotacji.",
+        "details": [
+          "Auto-etykietowanie",
+          "Wykrywanie Obiektów",
+          "Rozpoznawanie Tekstu",
+          "Inteligentne Sugestie"
+        ]
+      },
+      "intuitiveInterface": {
+        "title": "Intuicyjny Interfejs",
+        "description": "Przyjazny użytkownikowi interfejs zaprojektowany dla wydajności i dokładności w zadaniach adnotacji.",
+        "details": [
+          "Przeciągnij i Upuść",
+          "Skróty Klawiszowe",
+          "Powiększanie i Przesuwanie",
+          "Wsparcie Cofnij/Ponów"
+        ]
+      },
+      "advancedTools": {
+        "title": "Zaawansowane Narzędzia",
+        "description": "Narzędzia profesjonalnej klasy dla precyzyjnych adnotacji i kontroli jakości.",
+        "details": [
+          "Narzędzia Precyzyjne",
+          "Walidacja Jakości",
+          "Operacje Wsadowe",
+          "Niestandardowe Przepływy Pracy"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Gotowy do usprawnienia swojego przepływu pracy adnotacji?",
+      "subtitle": "Dołącz do tysięcy naukowców danych i inżynierów ML, którzy ufają AnnotateIt w swoich projektach.",
+      "button": "Zacznij Adnotować Dzisiaj"
+    }
+  },
+  "benefits": {
+    "title": "Dlaczego Wybrać AnnotateIt?",
+    "subtitle": "Zaufany przez naukowców danych i inżynierów ML na całym świecie do tworzenia wysokiej jakości zbiorów danych treningowych",
+    "userBenefits": {
+      "title": "Natychmiastowe Korzyści dla Twojego Przepływu Pracy",
+      "items": {
+        "saveTime": {
+          "title": "Oszczędzaj Czas",
+          "description": "Zmniejsz czas adnotacji do 70% dzięki automatycznemu etykietowaniu i inteligentnym narzędziom.",
+          "metric": "70% szybciej"
+        },
+        "improveAccuracy": {
+          "title": "Popraw Dokładność",
+          "description": "Narzędzia profesjonalnej klasy zapewniają precyzyjne adnotacje dla lepszej wydajności modelu.",
+          "metric": "99% precyzja"
+        },
+        "scaleEfficiently": {
+          "title": "Skaluj Efektywnie",
+          "description": "Obsługuj duże zbiory danych z przetwarzaniem wsadowym i zautomatyzowanymi przepływami pracy.",
+          "metric": "10x skala"
+        },
+        "reduceCosts": {
+          "title": "Zmniejsz Koszty",
+          "description": "Obniż koszty adnotacji dzięki wydajnym narzędziom i mniejszej ilości pracy ręcznej.",
+          "metric": "60% oszczędności"
+        }
+      }
+    },
+    "businessBenefits": {
+      "title": "Możliwości Klasy Korporacyjnej",
+      "items": {
+        "fasterTimeToMarket": {
+          "title": "Szybszy Czas Wprowadzenia na Rynek",
+          "description": "Przyspiesz swoje projekty ML dzięki usprawnionym przepływom pracy adnotacji i szybkiemu przygotowaniu zbiorów danych."
+        },
+        "dataSecurity": {
+          "title": "Bezpieczeństwo Danych",
+          "description": "Zachowaj bezpieczeństwo swoich wrażliwych danych dzięki lokalnemu przetwarzaniu i braku wymagań zależności od chmury."
+        },
+        "teamCollaboration": {
+          "title": "Współpraca Zespołowa",
+          "description": "Umożliw bezproblemową współpracę dzięki udostępnianiu projektów, śledzeniu postępów i kontroli jakości."
+        },
+        "easyIntegration": {
+          "title": "Łatwa Integracja",
+          "description": "Integruj się bezproblemowo z istniejącym potokiem ML poprzez wiele formatów eksportu."
+        },
+        "qualityAssurance": {
+          "title": "Zapewnienie Jakości",
+          "description": "Wbudowane narzędzia walidacji zapewniają spójne, wysokiej jakości adnotacje w całym zespole."
+        },
+        "performanceOptimized": {
+          "title": "Zoptymalizowana Wydajność",
+          "description": "Obsługuj duże obrazy i złożone adnotacje bez degradacji wydajności."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Co Mówią Nasi Użytkownicy",
+      "items": [
+        {
+          "quote": "AnnotateIt zrewolucjonizował nasz przepływ pracy adnotacji. Zmniejszyliśmy czas przygotowania zbiorów danych o 60% jednocześnie poprawiając jakość adnotacji.",
+          "author": "Dr. Sarah Chen",
+          "role": "Kierownik Badań ML",
+          "company": "TechVision AI"
+        },
+        {
+          "quote": "Integracja Narzędzi AI Przed-adnotacji to przełom. Zapewnia doskonałe punkty wyjścia dla naszych adnotacji, oszczędzając godziny pracy ręcznej.",
+          "author": "Michael Rodriguez",
+          "role": "Naukowiec Danych",
+          "company": "AutoDrive Systems"
+        },
+        {
+          "quote": "W końcu narzędzie do adnotacji, które rozumie potrzeby profesjonalnych zespołów ML. Interfejs jest intuicyjny, a funkcje kompleksowe.",
+          "author": "Lisa Wang",
+          "role": "Inżynier Wizji Komputerowej",
+          "company": "RoboTech Solutions"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gotowy do Transformacji Swojego Przepływu Pracy Adnotacji?",
+      "subtitle": "Dołącz do tysięcy profesjonalistów, którzy już ulepszyli swoje projekty ML dzięki AnnotateIt",
+      "downloadButton": "Pobierz Bezpłatną Wersję Próbną",
+      "contactButton": "Skontaktuj się z Działem Sprzedaży"
+    }
+  },
+  "languageSelector": {
+    "label": "Język",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "ru": "Русский",
+      "pl": "Polski"
+    }
+  },
+  "screenshots": {
+    "title": "Zobacz AnnotateIt w Akcji",
+    "subtitle": "Poznaj intuicyjny interfejs i potężne funkcje poprzez te zrzuty ekranu aplikacji",
+    "items": {
+      "projectDashboard": {
+        "title": "Panel Projektów",
+        "description": "Zarządzaj wszystkimi swoimi projektami adnotacji z centralnego panelu z przeglądem projektu i śledzeniem postępów.",
+        "alt": "Panel projektów AnnotateIt pokazujący siatkę projektów adnotacji z miniaturami, wskaźnikami postępu i statystykami projektów"
+      },
+      "boundingBoxAnnotation": {
+        "title": "Adnotacja Ramki Ograniczającej",
+        "description": "Precyzyjne narzędzia adnotacji ramek ograniczających z podglądem w czasie rzeczywistym i zarządzaniem etykietami.",
+        "alt": "Interfejs adnotacji AnnotateIt wyświetlający obraz z adnotacjami ramek ograniczających, selektorem etykiet i panelem narzędzi adnotacji"
+      },
+      "objectDetectionSetup": {
+        "title": "Konfiguracja Wykrywania Obiektów",
+        "description": "Łatwy kreator tworzenia projektów dla zadań wykrywania obiektów z konfigurowalnymi etykietami i ustawieniami.",
+        "alt": "Kreator tworzenia projektów AnnotateIt dla wykrywania obiektów pokazujący pola formularza dla nazwy projektu, etykiet i ustawień wykrywania"
+      },
+      "classificationProject": {
+        "title": "Projekt Klasyfikacji",
+        "description": "Skonfiguruj projekty klasyfikacji obrazów z obsługą wielu klas i wielu etykiet.",
+        "alt": "Interfejs konfiguracji projektów AnnotateIt dla klasyfikacji obrazów z opcjami dla etykietowania jednej klasy i wielu klas"
+      },
+      "segmentationTools": {
+        "title": "Narzędzia Segmentacji",
+        "description": "Zaawansowane narzędzia adnotacji segmentacji dla idealnych adnotacji wielokątnych.",
+        "alt": "Ekran tworzenia projektów segmentacji AnnotateIt pokazujący ustawienia adnotacji wielokątnych i opcje narzędzi segmentacji"
+      },
+      "datasetImport": {
+        "title": "Import Zbioru Danych",
+        "description": "Importuj istniejące zbiory danych w różnych formatach, aby kontynuować lub ulepszyć swoje adnotacje.",
+        "alt": "Interfejs importu zbiorów danych AnnotateIt pokazujący opcje przesyłania plików i wybór obsługiwanych formatów dla istniejących zbiorów danych"
+      }
+    },
+    "modal": {
+      "clickToEnlarge": "Kliknij, aby powiększyć"
+    },
+    "highlights": {
+      "lightningFast": {
+        "title": "Błyskawicznie Szybki",
+        "description": "Zoptymalizowana wydajność do obsługi dużych zbiorów danych i złożonych adnotacji bez opóźnień."
+      },
+      "intuitiveDesign": {
+        "title": "Intuicyjny Design",
+        "description": "Czysty, nowoczesny interfejs zaprojektowany dla produktywności i łatwości użycia na wszystkich poziomach umiejętności."
+      },
+      "professionalTools": {
+        "title": "Profesjonalne Narzędzia",
+        "description": "Zaawansowane narzędzia adnotacji z kontrolami precyzji i funkcjami zapewnienia jakości."
+      },
+      "responsiveLayout": {
+        "title": "Responsywny Layout",
+        "description": "Adaptacyjny interfejs, który działa płynnie na różnych rozmiarach ekranów i urządzeniach."
+      }
+    }
+  },
+  "download": {
+    "title": "Pobierz AnnotateIt",
+    "subtitle": "Zacznij dziś z profesjonalnymi narzędziami adnotacji",
+    "options": {
+      "microsoftStore": {
+        "platform": "Microsoft Store",
+        "description": "Pobierz z Microsoft Store dla Windows 10/11",
+        "version": "Najnowsza Wersja",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Pobierz ze Store"
+      },
+      "directDownload": {
+        "platform": "Bezpośrednie Pobieranie",
+        "description": "Bezpośrednie pobieranie dla systemów Windows",
+        "version": "Najnowsza Wersja",
+        "size": "~50 MB",
+        "requirements": "Windows 10/11",
+        "buttonText": "Poproś o licencję"
+      },
+      "macOS": {
+        "platform": "macOS",
+        "description": "Natywna aplikacja macOS",
+        "version": "W Rozwoju",
+        "size": "Do Ustalenia",
+        "requirements": "macOS 11.0 lub nowszy",
+        "buttonText": "Wkrótce Dostępne"
+      },
+      "android": {
+        "platform": "Android",
+        "description": "Natywna aplikacja Android",
+        "version": "W Rozwoju",
+        "size": "Do Ustalenia",
+        "requirements": "Android 8.0+",
+        "buttonText": "Wkrótce Dostępne"
+      },
+      "iOS": {
+        "platform": "iOS",
+        "description": "Natywna aplikacja iOS",
+        "version": "W Rozwoju",
+        "size": "Do Ustalenia",
+        "requirements": "iOS 13.0+",
+        "buttonText": "Wkrótce Dostępne"
+      },
+      "ubuntu": {
+        "platform": "Ubuntu",
+        "description": "Natywna aplikacja Ubuntu Linux",
+        "version": "W Rozwoju",
+        "size": "Do Ustalenia",
+        "requirements": "Ubuntu 20.04 LTS lub nowszy",
+        "buttonText": "Wkrótce Dostępne"
+      }
+    },
+    "details": {
+      "version": "Wersja:",
+      "size": "Rozmiar:",
+      "requirements": "Wymagania:"
+    },
+    "systemRequirements": {
+      "title": "Wymagania Systemowe",
+      "minimum": {
+        "title": "Minimalne Wymagania",
+        "items": [
+          "Windows 10 lub Windows 11",
+          "4 GB RAM",
+          "100 MB dostępnego miejsca na dysku",
+          "Rozdzielczość ekranu 1280 x 720"
+        ]
+      },
+      "recommended": {
+        "title": "Zalecane",
+        "items": [
+          "Windows 11 (najnowsza wersja)",
+          "8 GB RAM lub więcej",
+          "1 GB dostępnego miejsca na dysku",
+          "Rozdzielczość ekranu 1920 x 1080"
+        ]
+      }
+    },
+    "support": {
+      "title": "Potrzebujesz Pomocy?",
+      "description": "Masz problemy z instalacją lub potrzebujesz wsparcia technicznego? Jesteśmy tutaj, aby pomóc Ci rozpocząć pracę z AnnotateIt.",
+      "contactSupport": "Skontaktuj się z Wsparciem",
+      "viewDocumentation": "Zobacz Dokumentację"
+    }
+  }
+}

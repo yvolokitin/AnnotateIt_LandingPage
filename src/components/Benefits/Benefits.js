@@ -1,101 +1,85 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Benefits.css';
 
 const Benefits = () => {
+  const { t } = useTranslation();
+  
   const userBenefits = [
     {
       icon: '⏱️',
-      title: 'Save Time',
-      description: 'Reduce annotation time by up to 70% with automated labeling and intelligent tools.',
-      metric: '70% faster'
+      title: t('benefits.userBenefits.items.saveTime.title'),
+      description: t('benefits.userBenefits.items.saveTime.description'),
+      metric: t('benefits.userBenefits.items.saveTime.metric')
     },
     {
       icon: '🎯',
-      title: 'Improve Accuracy',
-      description: 'Professional-grade tools ensure precise annotations for better model performance.',
-      metric: '99% precision'
+      title: t('benefits.userBenefits.items.improveAccuracy.title'),
+      description: t('benefits.userBenefits.items.improveAccuracy.description'),
+      metric: t('benefits.userBenefits.items.improveAccuracy.metric')
     },
     {
       icon: '📈',
-      title: 'Scale Efficiently',
-      description: 'Handle large datasets with batch processing and automated workflows.',
-      metric: '10x scale'
+      title: t('benefits.userBenefits.items.scaleEfficiently.title'),
+      description: t('benefits.userBenefits.items.scaleEfficiently.description'),
+      metric: t('benefits.userBenefits.items.scaleEfficiently.metric')
     },
     {
       icon: '💰',
-      title: 'Reduce Costs',
-      description: 'Lower annotation costs with efficient tools and reduced manual work.',
-      metric: '60% savings'
+      title: t('benefits.userBenefits.items.reduceCosts.title'),
+      description: t('benefits.userBenefits.items.reduceCosts.description'),
+      metric: t('benefits.userBenefits.items.reduceCosts.metric')
     }
   ];
 
   const businessBenefits = [
     {
       icon: '🚀',
-      title: 'Faster Time-to-Market',
-      description: 'Accelerate your ML projects with streamlined annotation workflows and rapid dataset preparation.'
+      title: t('benefits.businessBenefits.items.fasterTimeToMarket.title'),
+      description: t('benefits.businessBenefits.items.fasterTimeToMarket.description')
     },
     {
       icon: '🔒',
-      title: 'Data Security',
-      description: 'Keep your sensitive data secure with local processing and no cloud dependency requirements.'
+      title: t('benefits.businessBenefits.items.dataSecurity.title'),
+      description: t('benefits.businessBenefits.items.dataSecurity.description')
     },
     {
       icon: '👥',
-      title: 'Team Collaboration',
-      description: 'Enable seamless collaboration with project sharing, progress tracking, and quality control.'
+      title: t('benefits.businessBenefits.items.teamCollaboration.title'),
+      description: t('benefits.businessBenefits.items.teamCollaboration.description')
     },
     {
       icon: '🔧',
-      title: 'Easy Integration',
-      description: 'Integrate seamlessly with your existing ML pipeline through multiple export formats.'
+      title: t('benefits.businessBenefits.items.easyIntegration.title'),
+      description: t('benefits.businessBenefits.items.easyIntegration.description')
     },
     {
       icon: '📊',
-      title: 'Quality Assurance',
-      description: 'Built-in validation tools ensure consistent, high-quality annotations across your team.'
+      title: t('benefits.businessBenefits.items.qualityAssurance.title'),
+      description: t('benefits.businessBenefits.items.qualityAssurance.description')
     },
     {
       icon: '⚡',
-      title: 'Performance Optimized',
-      description: 'Handle large images and complex annotations without performance degradation.'
+      title: t('benefits.businessBenefits.items.performanceOptimized.title'),
+      description: t('benefits.businessBenefits.items.performanceOptimized.description')
     }
   ];
 
-  const testimonials = [
-    {
-      quote: "AnnotateIt has revolutionized our annotation workflow. We've reduced our dataset preparation time by 60% while improving annotation quality.",
-      author: "Dr. Sarah Chen",
-      role: "ML Research Lead",
-      company: "TechVision AI"
-    },
-    {
-      quote: "The Pre-annotation AI Tools integration is a game-changer. It provides excellent starting points for our annotations, saving hours of manual work.",
-      author: "Michael Rodriguez",
-      role: "Data Scientist",
-      company: "AutoDrive Systems"
-    },
-    {
-      quote: "Finally, an annotation tool that understands the needs of professional ML teams. The interface is intuitive and the features are comprehensive.",
-      author: "Lisa Wang",
-      role: "Computer Vision Engineer",
-      company: "RoboTech Solutions"
-    }
-  ];
+  const testimonials = t('benefits.testimonials.items', { returnObjects: true });
 
   return (
     <section id="benefits" className="section bg-gray">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="fade-in">Why Choose AnnotateIt?</h2>
+          <h2 className="fade-in">{t('benefits.title')}</h2>
           <p className="text-large text-muted fade-in fade-in-delay-1">
-            Trusted by data scientists and ML engineers worldwide for creating high-quality training datasets
+            {t('benefits.subtitle')}
           </p>
         </div>
 
         {/* User Benefits */}
         <div className="benefits-section fade-in fade-in-delay-2">
-          <h3 className="benefits-title text-center">Immediate Benefits for Your Workflow</h3>
+          <h3 className="benefits-title text-center">{t('benefits.userBenefits.title')}</h3>
           <div className="user-benefits grid grid-4">
             {userBenefits.map((benefit, index) => (
               <div key={index} className="benefit-card card hover-lift">
@@ -110,7 +94,7 @@ const Benefits = () => {
 
         {/* Business Benefits */}
         <div className="benefits-section fade-in fade-in-delay-3">
-          <h3 className="benefits-title text-center">Enterprise-Grade Capabilities</h3>
+          <h3 className="benefits-title text-center">{t('benefits.businessBenefits.title')}</h3>
           <div className="business-benefits grid grid-3">
             {businessBenefits.map((benefit, index) => (
               <div key={index} className="business-benefit-card">
@@ -126,7 +110,7 @@ const Benefits = () => {
 
         {/* Testimonials */}
         <div className="testimonials-section fade-in fade-in-delay-4">
-          <h3 className="benefits-title text-center">What Our Users Say</h3>
+          <h3 className="benefits-title text-center">{t('benefits.testimonials.title')}</h3>
           <div className="testimonials grid grid-3">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="testimonial-card card">
